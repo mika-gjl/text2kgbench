@@ -1,0 +1,286 @@
+{
+   "source":{
+      
+   },
+   "events":[
+      {
+         "time":{
+            "stamp":"1938-07-16",
+            "calendar":"gregorian",
+            "precision":"day"
+         },
+         "label":"rue Armand Carrel || Historique || Un décret du 16 juillet 1938, non exécuté, avait déclaré d'utilité publique le prolongement de la rue Armand Carrel jusqu'à l'avenue Jean Jaurès (C).",
+         "lang":"fr",
+         "provenance":{
+            "uri":"https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051_historique"
+         },
+         "landmarks":[
+            {
+               "id":1,
+               "label":"rue Armand Carrel",
+               "type":"thoroughfare",
+               "changes":[
+                  {
+                     "on":"attribute",
+                     "attribute":"geometry",
+                     "status":"non_executed",
+                     "comment":"Projet non réalisé. Le prolongement aurait potentiellement traversé ou supprimé une rue existante."
+                  }
+               ]
+            },
+            {
+               "id":2,
+               "label":"avenue Jean Jaurès",
+               "type":"thoroughfare"
+            }
+         ]
+      },
+      {
+         "time":{
+            "stamp":"1885-12-03",
+            "calendar":"gregorian",
+            "precision":"day"
+         },
+         "label":"rue Armand Carrel || Dénomination || Décret du 3 décembre 1885.",
+         "lang":"fr",
+         "provenance":{
+            "uri":"https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051_denomination_1"
+         },
+         "landmarks":[
+            {
+               "id":1,
+               "label":"rue Armand Carrel",
+               "type":"thoroughfare",
+               "changes":[
+                  {
+                     "on":"attribute",
+                     "attribute":"name",
+                     "makes_effective":[
+                        {
+                           "value":"rue Armand Carrel",
+                           "lang":"fr"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "time":{
+            "stamp":"1990-06-07",
+            "calendar":"gregorian",
+            "precision":"day"
+         },
+         "label":"rue Armand Carrel || Dénomination || Arrêté municipal du 7 juin 1990, partie comprise entre la rue Clovis Hugues, l'avenue Jean Jaurès, et la rue Bouret.",
+         "lang":"fr",
+         "provenance":{
+            "uri":"https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051_denomination_2"
+         },
+         "landmarks":[
+            {
+               "id":1,
+               "label":"rue Armand Carrel",
+               "type":"thoroughfare",
+               "changes":[
+                  {
+                     "on":"attribute",
+                     "attribute":"name",
+                     "makes_effective":[
+                        {
+                           "value":"rue Armand Carrel",
+                           "lang":"fr"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "id":2,
+               "label":"rue Clovis Hugues",
+               "type":"thoroughfare"
+            },
+            {
+               "id":3,
+               "label":"avenue Jean Jaurès",
+               "type":"thoroughfare"
+            },
+            {
+               "id":4,
+               "label":"rue Bouret",
+               "type":"thoroughfare"
+            }
+         ]
+      },
+      {
+         "time":{
+            "stamp":"1885-03-26",
+            "calendar":"gregorian",
+            "precision":"day"
+         },
+         "label":"rue Armand Carrel || Classement || Décret du 26 mars 1885, depuis la place Armand Carrel jusqu'au droit des nos 11 et 16 (A).",
+         "lang":"fr",
+         "provenance":{
+            "uri":"https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051_classement"
+         },
+         "landmarks":[
+            {
+               "id":1,
+               "label":"rue Armand Carrel",
+               "type":"thoroughfare",
+               "changes":[
+                  {
+                     "on":"landmark",
+                     "type":"classement"
+                  }
+               ]
+            },
+            {
+               "id":2,
+               "label":"place Armand Carrel",
+               "type":"thoroughfare"
+            }
+         ]
+      },
+      {
+         "time":{
+            "stamp":"1939-04-14",
+            "calendar":"gregorian",
+            "precision":"day"
+         },
+         "label":"rue Armand Carrel || Numérotation || Arrêté du 14 avril 1939.",
+         "lang":"fr",
+         "provenance":{
+            "uri":"https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051_numerotation_1"
+         },
+         "landmarks":[
+            {
+               "id":1,
+               "label":"rue Armand Carrel",
+               "type":"thoroughfare",
+               "changes":[
+                  {
+                     "on":"landmark",
+                     "type":"numerotation"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "time":{
+            "stamp":"1883-01-01",
+            "calendar":"gregorian",
+            "precision":"year"
+         },
+         "label":"rue Armand Carrel || Numérotation || Le tronçon A de la rue Armand Carrel a été ouvert en 1883.",
+         "lang":"fr",
+         "provenance":{
+            "uri":"https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051_numerotation_2"
+         },
+         "landmarks":[
+            {
+               "id":"1",
+               "label":"rue Armand Carrel",
+               "type":"thoroughfare",
+               "changes":[
+                  {
+                     "on":"attribute",
+                     "attribute":"geometry"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "time":{
+            "stamp":"1925-07-05",
+            "calendar":"gregorian",
+            "precision":"day"
+         },
+         "label":"rue Armand Carrel || Numérotation || Deux tronçons (A et le segment de 70 m) ont été réunis en 1925 par décret du 5 juillet 1925.",
+         "lang":"fr",
+         "provenance":{
+            "uri":"https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051_numerotation_3"
+         },
+         "landmarks":[
+            {
+               "id":"1",
+               "label":"rue Armand Carrel",
+               "type":"thoroughfare",
+               "changes":[
+                  {
+                     "on":"attribute",
+                     "attribute":"geometry"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "label":"rue Armand Carrel || Numérotation || Ouverture de la section entre la rue de Meaux et la rue Lally-Tollendal par la Ville de Paris.",
+         "lang":"fr",
+         "provenance":{
+            "uri":"https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051_numerotation_4"
+         },
+         "landmarks":[
+            {
+               "id":1,
+               "label":"Rue Armand Carrel",
+               "type":"thoroughfare",
+               "changes":[
+                  {
+                     "on":"attribute",
+                     "attribute":"geometry"
+                  }
+               ]
+            },
+            {
+               "id":2,
+               "label":"rue de Meaux",
+               "type":"thoroughfare"
+            },
+            {
+               "id":3,
+               "label":"rue Lally-Tollendal",
+               "type":"thoroughfare"
+            }
+         ]
+      },
+      {
+         "time":{
+            "stamp":"1938-01-01",
+            "calendar":"gregorian",
+            "precision":"year"
+         },
+         "label":"rue Armand Carrel || Numérotation || Ouverture de la section entre la rue Lally-Tollendal et la rue Clovis Hugues par la Ville de Paris.",
+         "lang":"fr",
+         "provenance":{
+            "uri":"https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051_numerotation_5"
+         },
+         "landmarks":[
+            {
+               "id":"1",
+               "label":"rue Armand Carrel",
+               "type":"thoroughfare",
+               "changes":[
+                  {
+                     "on":"landmark",
+                     "type":"appearance"
+                  }
+               ]
+            },
+            {
+               "id":2,
+               "label":"rue Lally-Tollendal",
+               "type":"thoroughfare"
+            },
+            {
+               "id":3,
+               "label":"rue Clovis Hugues",
+               "type":"thoroughfare"
+            }
+         ]
+      }
+   ]
+}

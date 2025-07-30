@@ -1,0 +1,124 @@
+{
+   "source":{
+
+   },
+   "events":[
+      {
+         "time":{
+            "stamp":"1847-11-27",
+            "calendar":"gregorian",
+            "precision":"day"
+         },
+         "label":"rue de Lyon || Historique || L'ouverture de la rue de Lyon a supprimé la rue Treilhard.",
+         "lang":"fr",
+         "provenance":{
+            "uri":"https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970"
+         },
+         "landmarks":[
+            {
+               "id":1,
+               "label":"rue de Lyon",
+               "type":"thoroughfare",
+               "changes":[
+                  {
+                     "on":"landmark",
+                     "type":"appearance"
+                  }
+               ]
+            },
+            {
+               "id":2,
+               "label":"rue Treilhard",
+               "type":"thoroughfare",
+               "changes":[
+                  {
+                     "on":"landmark",
+                     "type":"disappearance"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "time":{
+            "stamp":"1847-11-27",
+            "calendar":"gregorian",
+            "precision":"day"
+         },
+         "label":"rue de Lyon || Dénomination || Ordonnance du 27 novembre 1847.",
+         "lang":"fr",
+         "provenance":{
+            "uri":"https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970"
+         },
+         "landmarks":[
+            {
+               "id":1,
+               "label":"rue de Lyon",
+               "type":"thoroughfare",
+               "changes":[
+                  {
+                     "on":"attribute",
+                     "attribute":"name",
+                     "makes_effective":[
+                        {
+                           "value":"rue de Lyon",
+                           "lang":"fr"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "time":{
+            "stamp":"1900-05-29",
+            "calendar":"gregorian",
+            "precision":"day"
+         },
+         "label":"rue de Lyon || Numérotation || Arrêté du 29 mai 1900, partie A, côté pair.",
+         "lang":"fr",
+         "provenance":{
+            "uri":"https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970"
+         },
+         "landmarks":[
+            {
+               "id":1,
+               "label":"rue de Lyon",
+               "type":"thoroughfare",
+               "changes":[
+                  {
+                     "on":"landmark",
+                     "type":"numerotation"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "time":{
+            "stamp":"1900-05-29",
+            "calendar":"gregorian",
+            "precision":"day"
+         },
+         "label":"rue de Lyon || Ouverture || Ordonnance du 27 novembre 1847 (UP).",
+         "lang":"fr",
+         "provenance":{
+            "uri":"https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970"
+         },
+         "landmarks":[
+            {
+               "id":1,
+               "label":"rue de Lyon",
+               "type":"thoroughfare",
+               "changes":[
+                  {
+                     "on":"attribute",
+                     "attribute":"geometry"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

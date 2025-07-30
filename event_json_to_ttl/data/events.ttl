@@ -1,0 +1,1440 @@
+@prefix addr: <http://rdf.geohistoricaldata.org/def/address#> .
+@prefix atype: <http://rdf.geohistoricaldata.org/id/codes/address/attributeType/> .
+@prefix ctype: <http://rdf.geohistoricaldata.org/id/codes/address/changeType/> .
+@prefix factoids: <http://rdf.geohistoricaldata.org/id/address/factoids/> .
+@prefix facts: <http://rdf.geohistoricaldata.org/id/address/facts/> .
+@prefix lrtype: <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/> .
+@prefix ltype: <http://rdf.geohistoricaldata.org/id/codes/address/landmarkType/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+factoids:CG_0e8311925a894f398d18f4d4201c66ee a addr:LandmarkChange ;
+    addr:appliedTo factoids:LM_3c77ad8d6da04335bfb9f7b33d131627 ;
+    addr:dependsOn factoids:EV_d7b60edcd6524be6a487d4416c176923 ;
+    addr:isChangeType ctype:LandmarkNumerotation .
+
+factoids:CG_111927a70eaf4bf2b6244d0a87f80b84 a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_874d0c6276b7456c824e9f5a42940954 ;
+    addr:dependsOn factoids:EV_e9c5420f5aa149578e5eb06b2a68c454 ;
+    addr:isChangeType ctype:AttributeVersionTransition ;
+    addr:makesEffective factoids:AV_3425ca1a134447faa2dca1b1c73a1e74 .
+
+factoids:CG_126538c47f8a4ecc914a5d14bc7f6ba5 a addr:LandmarkChange ;
+    addr:appliedTo factoids:LM_569f173cf226476ba63a7494f9398520 ;
+    addr:dependsOn factoids:EV_6ebfdc4bea174e31a9c9a49556d2b82c ;
+    addr:isChangeType ctype:LandmarkNumerotation .
+
+factoids:CG_133ae568950946cc9f4ae27f8d1cd524 a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_6ec19a35c4644744a4036575a3291127 ;
+    addr:dependsOn factoids:EV_45a7c68f33604833942151535a3393a9 ;
+    addr:isChangeType ctype:AttributeVersionTransition .
+
+factoids:CG_1341269dfb2e4c37b253c525c908cef9 a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_a193349e61e6408faff82e8efb598e20 ;
+    addr:dependsOn factoids:EV_92ede089e00143ce9b592b905aef50af ;
+    addr:isChangeType ctype:AttributeVersionTransition .
+
+factoids:CG_1a4add0a4b0d4669a7a454e827a28ffb a addr:LandmarkChange ;
+    addr:appliedTo factoids:LM_1047227373744895bbc079aacab0a872 ;
+    addr:dependsOn factoids:EV_5bc52fbbec2247a492420a8374202598 ;
+    addr:isChangeType ctype:LandmarkNumerotation .
+
+factoids:CG_1cede8e3b5c94b3b8bf648f673b00d8b a addr:LandmarkChange ;
+    addr:appliedTo factoids:LM_bccc398f62d14745b8e77e69c8cfa835 ;
+    addr:dependsOn factoids:EV_d0055bf2499d4ceea6eabf0643f0c9c6 ;
+    addr:isChangeType ctype:LandmarkNumerotation .
+
+factoids:CG_205ca6fa8fe44e81872b9c2aaa895092 a addr:LandmarkChange ;
+    addr:appliedTo factoids:LM_941586b21b594b1db30508d8492fd52b ;
+    addr:dependsOn factoids:EV_29c9a016c083446dac58919a438567a5 ;
+    addr:isChangeType ctype:LandmarkDisappearance .
+
+factoids:CG_216929293ee849d3ba2efe5e2ca59936 a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_d513fd1d0be845acba8cc042fd2fb415 ;
+    addr:dependsOn factoids:EV_040e9f087dff42eebba6db30efaa35c4 ;
+    addr:isChangeType ctype:AttributeVersionTransition .
+
+factoids:CG_23f8b3b19ca646939c7d19a9d9d4fac8 a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_892a4c48f771465c8ded3517b0206ac2 ;
+    addr:dependsOn factoids:EV_70e3a57cd5e547cc8dad68610c9ebcac ;
+    addr:isChangeType ctype:AttributeVersionTransition .
+
+factoids:CG_2b37943d6f624c31b708c9daaaa8b48e a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_585ab56421794033a034c14fb8c9694a ;
+    addr:dependsOn factoids:EV_5114f325cbf8449ca9fc471c93c72604 ;
+    addr:isChangeType ctype:AttributeVersionTransition ;
+    addr:makesEffective factoids:AV_2af9bc1c9a7b40e8b7595b177ae5efa9 .
+
+factoids:CG_2f20c60e9f6345d6b5bef187e3f98386 a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_ff3c61a29a734baa9fe43dce3455be11 ;
+    addr:dependsOn factoids:EV_f76ea36b49ca48e2bced78b59fa5e37e ;
+    addr:isChangeType ctype:AttributeVersionTransition .
+
+factoids:CG_36b06573fa0d40af94c8cdbef0ae679e a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_8edb21432b9b45a58b600969eb24aa18 ;
+    addr:dependsOn factoids:EV_60dd9d1b3dd840b7909c4902b71d2b8a ;
+    addr:isChangeType ctype:AttributeVersionTransition ;
+    addr:makesEffective factoids:AV_339f18010f22449fbc028cf5ade71675 .
+
+factoids:CG_380695a8d7c94904b4b102f7b1d7d701 a addr:LandmarkChange ;
+    addr:appliedTo factoids:LM_3fa35f1670234baba3a4ef80a6d5d4d7 ;
+    addr:dependsOn factoids:EV_d241fc4cde1f4b358969185bb46e172c ;
+    addr:isChangeType ctype:LandmarkNumerotation .
+
+factoids:CG_42e378863f804e93970dd4fb2f08cf1f a addr:LandmarkChange ;
+    addr:appliedTo factoids:LM_07e0d7c1e3844dee972cf4f908376be2 ;
+    addr:dependsOn factoids:EV_2028127c285c4e12bd768c7ca387100c ;
+    addr:isChangeType ctype:LandmarkNumerotation .
+
+factoids:CG_43dde760cc8b4b5da1efaefca5969bd7 a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_5996233ad9d3414387a7e5f2f84f543f ;
+    addr:dependsOn factoids:EV_688f9e0f562c4a07a351bcbd48644035 ;
+    addr:isChangeType ctype:AttributeVersionTransition ;
+    addr:makesEffective factoids:AV_7eaecb9bf219450a9d9fcf772a8d20d1 .
+
+factoids:CG_4e39f7f9aa69471292ae02c4cd85a9ef a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_799a8dcc3e55465e80ca4fb8c0f83606 ;
+    addr:dependsOn factoids:EV_d99f5012d37040738aae2c48e346293e ;
+    addr:isChangeType ctype:AttributeVersionTransition .
+
+factoids:CG_508dd3bf1a5f42ed90d183f10ccb6370 a addr:LandmarkChange ;
+    addr:appliedTo factoids:LM_466a656191804fea954a2866ce6ff60a ;
+    addr:dependsOn factoids:EV_5114f325cbf8449ca9fc471c93c72604 ;
+    addr:isChangeType ctype:LandmarkAppearance .
+
+factoids:CG_5afe5e9cbf2646ee86af5777d48f2537 a addr:LandmarkChange ;
+    addr:appliedTo factoids:LM_b7e0ae5d6c98403c8995bbad212d8905 ;
+    addr:dependsOn factoids:EV_a619a75f31ff46ab985574bf24712d10 ;
+    addr:isChangeType ctype:LandmarkClassement .
+
+factoids:CG_60deb5b7a0a740b7aa2a424c9af7c249 a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_9ff7d0d1cd5248f3b1bab412902c60cb ;
+    addr:dependsOn factoids:EV_3977362d74b54d5184e0f0389cd9ea37 ;
+    addr:isChangeType ctype:AttributeVersionTransition ;
+    addr:makesEffective factoids:AV_d53f5b4c15614effbdd5454658230a71 .
+
+factoids:CG_636f7154e3964c099e7e8d5709390ada a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_6db0b4e47b3c4527a24693a57936404d ;
+    addr:dependsOn factoids:EV_99e53b8ee5ba4e3db66302ce729dd55f ;
+    addr:isChangeType ctype:AttributeVersionTransition .
+
+factoids:CG_670a522fbd2d41ce95f46c927cc230ef a addr:LandmarkChange ;
+    addr:appliedTo factoids:LM_ea3494ae783b497dba57a8eb6e661947 ;
+    addr:dependsOn factoids:EV_5114f325cbf8449ca9fc471c93c72604 ;
+    addr:isChangeType ctype:LandmarkDisappearance .
+
+factoids:CG_6c31b3b4899d4f18bf82a8c881b5a538 a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_317fb92c67dd4b2d969cde263a630f25 ;
+    addr:dependsOn factoids:EV_80fb5ab4de214ec8911fe70051766c02 ;
+    addr:isChangeType ctype:AttributeVersionTransition ;
+    addr:makesEffective factoids:AV_856002510d234fb390ab47234ed79b3e .
+
+factoids:CG_6d0f38a578574cb7b6d124fb77c7ab55 a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_8c16210f7eff4e3f86998d8313beacac ;
+    addr:dependsOn factoids:EV_3286e19b460644fa918e1dff7a875566 ;
+    addr:isChangeType ctype:AttributeVersionTransition .
+
+factoids:CG_7807a88cac1a497594c603e25330c497 a addr:LandmarkChange ;
+    addr:appliedTo factoids:LM_71b660bca74142aa9029d7b1402b0380 ;
+    addr:dependsOn factoids:EV_18e951dd5c2c4807ba9b9354869c5755 ;
+    addr:isChangeType ctype:LandmarkClassement .
+
+factoids:CG_7ce178ec49194b5c95f7ad23f54ab14a a addr:LandmarkChange ;
+    addr:appliedTo factoids:LM_0294ff687ab84f10a4940c564bbb8686 ;
+    addr:dependsOn factoids:EV_7839340eb992481fbf468c469791d926 ;
+    addr:isChangeType ctype:LandmarkNumerotation .
+
+factoids:CG_7d3763b3591f476f9a81418737b8ce79 a addr:LandmarkChange ;
+    addr:appliedTo factoids:LM_1ed0eaf9155b4fa2b34bdf9511d8ad3c ;
+    addr:dependsOn factoids:EV_470fd29b1acb408aa118e2bc1a1245a3 ;
+    addr:isChangeType ctype:LandmarkClassement .
+
+factoids:CG_7ec7a48b8e764bec88ef63504d06f0cc a addr:LandmarkChange ;
+    addr:appliedTo factoids:LM_939fbf3d457348449e8379cefe7c9dce ;
+    addr:dependsOn factoids:EV_3d0356cb27c34d8cb9e445c4c7bcb883 ;
+    addr:isChangeType ctype:LandmarkClassement .
+
+factoids:CG_843639a6e13046a0951ed3921916c9fc a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_3dc84f018f89404eb2629ffba8ce6c19 ;
+    addr:dependsOn factoids:EV_e0227b224e3c453f8aa2c9f5700e7712 ;
+    addr:isChangeType ctype:AttributeVersionTransition ;
+    addr:makesEffective factoids:AV_5becdbbeb08b4f2187c27740e0b137d7 .
+
+factoids:CG_8c0378563a0a48d8ade304d8e08c5109 a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_07eb8bb616794d40803a15dcc60b1dda ;
+    addr:dependsOn factoids:EV_d83efaaaeebb4520aa85b6755ebd41a8 ;
+    addr:isChangeType ctype:AttributeVersionTransition .
+
+factoids:CG_8c4354fc14a64ab59f72e2408f236ce8 a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_f0d84c64319d43e18b1e95d3c5f2eb5f ;
+    addr:dependsOn factoids:EV_9d6717f4ff7a4268a6a04cd5b88dd44b ;
+    addr:isChangeType ctype:AttributeVersionTransition ;
+    addr:makesEffective factoids:AV_f6688419d86a4b77851c43b0451bcc07 .
+
+factoids:CG_8da0b9aa4f754a33b262381e09eec940 a addr:LandmarkChange ;
+    addr:appliedTo factoids:LM_341b929e381244e39d55c750224a6adb ;
+    addr:dependsOn factoids:EV_d83efaaaeebb4520aa85b6755ebd41a8 ;
+    addr:isChangeType ctype:LandmarkDisappearance .
+
+factoids:CG_8fb74f75d6f54c24b5f0b9d1577b3481 a addr:LandmarkChange ;
+    addr:appliedTo factoids:LM_95b15a04776548629579825936b95f72 ;
+    addr:dependsOn factoids:EV_d1563d7161be47d8a0493f01e06c59c2 ;
+    addr:isChangeType ctype:LandmarkNumerotation .
+
+factoids:CG_91288ae880744b1681afbcf9e91e217e a addr:LandmarkChange ;
+    addr:appliedTo factoids:LM_0175d321dc9b4cc2916c5cf5e30b036d ;
+    addr:dependsOn factoids:EV_77bba897c5ba45089017c1f5e948a5f7 ;
+    addr:isChangeType ctype:LandmarkNumerotation .
+
+factoids:CG_92944b41c0ac468b99894518b5e70613 a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_aba32f1cc78944aea12827683be2b390 ;
+    addr:dependsOn factoids:EV_8720bd5e5d884470b7d1f647f98845e9 ;
+    addr:isChangeType ctype:AttributeVersionTransition .
+
+factoids:CG_98a91e5d6deb4f5aacdc1b7ad9cb2879 a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_5e450ee6ca124bafb4403ec966b874c5 ;
+    addr:dependsOn factoids:EV_b04f9722e6944b1a8cf73667e4269ea8 ;
+    addr:isChangeType ctype:AttributeVersionTransition .
+
+factoids:CG_99022134680242f8887a114a153ebc04 a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_abbf2d9bf80648a4bd0f0df458479f9e ;
+    addr:dependsOn factoids:EV_da853bee73ba4f0db8f6a3c6748ec312 ;
+    addr:isChangeType ctype:AttributeVersionTransition .
+
+factoids:CG_9c82a5adcb834a21a11b6ab91c2eb3f3 a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_783544f8e4834ab9956ab812e7db35e7 ;
+    addr:dependsOn factoids:EV_29c9a016c083446dac58919a438567a5 ;
+    addr:isChangeType ctype:AttributeVersionTransition .
+
+factoids:CG_9cf82b290e6d44fe9bcbcf4fd07105a4 a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_7e2c2b7f591f45a6b932aecedfb72052 ;
+    addr:dependsOn factoids:EV_f638ed6da997430cb54ea4f66bbea8b6 ;
+    addr:isChangeType ctype:AttributeVersionTransition ;
+    addr:makesEffective factoids:AV_f743a09c5584443fb201aae5ee7f1ce6 .
+
+factoids:CG_a042e420e55a49eeaf86e484e657de48 a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_f3eb0bda8b0846bea383beabea097bf4 ;
+    addr:dependsOn factoids:EV_404aab2507224551b22bd85a8878b21d ;
+    addr:isChangeType ctype:AttributeVersionTransition .
+
+factoids:CG_a69f21c74a6742d1882e72f5e60e87a1 a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_4db1b5bea56c447c931d390748a01b48 ;
+    addr:dependsOn factoids:EV_edd49ac8917e49ff8208b4aa24e40c73 ;
+    addr:isChangeType ctype:AttributeVersionTransition .
+
+factoids:CG_a7520dc8483d4a0db8ac2f0f4e88c2a7 a addr:LandmarkChange ;
+    addr:appliedTo factoids:LM_42db20136d864f66bfb2fd8d0fbbb46d ;
+    addr:dependsOn factoids:EV_557e45aef29447c68146adf00b413eb2 ;
+    addr:isChangeType ctype:LandmarkAppearance .
+
+factoids:CG_b05f8b754f904244aa003e5569278ff8 a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_f64791476ad64df8814d935f504e2558 ;
+    addr:dependsOn factoids:EV_5114f325cbf8449ca9fc471c93c72604 ;
+    addr:isChangeType ctype:AttributeVersionTransition ;
+    addr:outdates factoids:AV_81a783c0e5cb4e1685fd81607b3135fd .
+
+factoids:CG_b0c744ea72174cb0ae4eed73e22eb551 a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_20636dd14b444cdaabc46cf968fa0fa2 ;
+    addr:dependsOn factoids:EV_5f6f1a8bc31946bdb1ba63cba1c21d8a ;
+    addr:isChangeType ctype:AttributeVersionTransition ;
+    addr:makesEffective factoids:AV_1daeef01a98c46f89c9e11e3d01cd007 .
+
+factoids:CG_b567c9122a73495a87b5e341c8c6317f a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_27652055764d4e48aee2b838d745b745 ;
+    addr:dependsOn factoids:EV_9c74d1ec75854882bd8ae69dc6c5e5c8 ;
+    addr:isChangeType ctype:AttributeVersionTransition ;
+    addr:makesEffective factoids:AV_c1d18f5805e8460596dda0c2c4521586 .
+
+factoids:CG_c171cdcd2b7e4163aa9894f8364abb43 a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_5fd7fedd50834d278947f559addbebaa ;
+    addr:dependsOn factoids:EV_47a6464e5d6f4d91b778e0a5dc5e8602 ;
+    addr:isChangeType ctype:AttributeVersionTransition ;
+    addr:makesEffective factoids:AV_0f5a6c61f69d4888b8035e7bff95999f .
+
+factoids:CG_c2d01e76f38f4184ad4f0a32a0910c1f a addr:LandmarkChange ;
+    addr:appliedTo factoids:LM_a2381b127f9c41e7a7e3405836bcdd34 ;
+    addr:dependsOn factoids:EV_cfde5d80be7f4256898be919178b75ac ;
+    addr:isChangeType ctype:LandmarkAppearance .
+
+factoids:CG_c615b264ec1a47288d586363ef59d056 a addr:LandmarkChange ;
+    addr:appliedTo factoids:LM_d715165b49df42629538a1533ab10153 ;
+    addr:dependsOn factoids:EV_aa6cfc7f5b8d45a3b6d6339a16132818 ;
+    addr:isChangeType ctype:LandmarkAppearance .
+
+factoids:CG_c9b4f9db5c8b4569b5075500280cbcc1 a addr:LandmarkChange ;
+    addr:appliedTo factoids:LM_e9c2d256e4154cfba76b90a9e2769477 ;
+    addr:dependsOn factoids:EV_557e45aef29447c68146adf00b413eb2 ;
+    addr:isChangeType ctype:LandmarkDisappearance .
+
+factoids:CG_dd4d9b68d9164b83a589487376d6b036 a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_e1c405b697974423a85f1ece39d07cda ;
+    addr:dependsOn factoids:EV_1271606bac6c4e87b7bcf723cab922fd ;
+    addr:isChangeType ctype:AttributeVersionTransition .
+
+factoids:CG_e48ebd62a91545df8cd28f2b19800f36 a addr:LandmarkChange ;
+    addr:appliedTo factoids:LM_d9e4a35813b9465680e36cf0d27b146f ;
+    addr:dependsOn factoids:EV_45b3ac6b123b4480a3dd949918ae3d69 ;
+    addr:isChangeType ctype:LandmarkNumerotation .
+
+factoids:CG_e5f7e7dfe3e04d86934b1a21897b3165 a addr:LandmarkChange ;
+    addr:appliedTo factoids:LM_e0d3b82a25374e139674acfea5c3f8c7 ;
+    addr:dependsOn factoids:EV_d83efaaaeebb4520aa85b6755ebd41a8 ;
+    addr:isChangeType ctype:LandmarkDisappearance .
+
+factoids:CG_ea8a94bb1cc64f969ae92aaf3fca2868 a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_193ffbc968e547f88786357ecdd69801 ;
+    addr:dependsOn factoids:EV_ce8f3953b6e742f3bea2e81aeb3f668c ;
+    addr:isChangeType ctype:AttributeVersionTransition ;
+    addr:makesEffective factoids:AV_20e559870de64132a64dcfa494252dd6 .
+
+factoids:CG_ef81520c11a84881854108370a6a5c87 a addr:LandmarkChange ;
+    addr:appliedTo factoids:LM_1d7df096df1741918d765f587f203e75 ;
+    addr:dependsOn factoids:EV_cfde5d80be7f4256898be919178b75ac ;
+    addr:isChangeType ctype:LandmarkDisappearance .
+
+factoids:CG_f6d36b1a2c64497bb1878898f74c8a57 a addr:AttributeChange ;
+    addr:appliedTo factoids:ATTR_09e0236583f84f1b8c4f2fea09f5b709 ;
+    addr:dependsOn factoids:EV_4d6bccb1cfaf4e66924b722593b81fbb ;
+    addr:isChangeType ctype:AttributeVersionTransition .
+
+factoids:EV_0708df573dc549aeb9ebc1135f9fe608 a addr:Event ;
+    rdfs:comment "rue du Père Corentin || Classement || Précédemment chemin vicinal de la commune de Montrouge."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12740> .
+
+factoids:EV_1b67c0b8674642bd81066f31cf5c5090 a addr:Event ;
+    rdfs:comment "place Jules Joffrin || Classement || Precedemment voie de l'ancienne commune de Montmartre."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11578> .
+
+factoids:LM_0782bff31a874ad7af7a18eba3701e69 a addr:Landmark ;
+    rdfs:label "rue Armand Carrel"@fr ;
+    addr:hasAttribute factoids:ATTR_193ffbc968e547f88786357ecdd69801 ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:LM_0aa2f59da01f40078ad86b75ce6f584a a addr:Landmark ;
+    rdfs:label "avenue Lacuée"@fr ;
+    addr:hasAttribute factoids:ATTR_317fb92c67dd4b2d969cde263a630f25 ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11753> .
+
+factoids:LM_0e8a894052f6437da799ec5f94d22ba5 a addr:Landmark ;
+    rdfs:label "rue Clovis Hugues"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:LM_0e9d0c30c4824a8ab8804e27cfc8c07c a addr:Landmark ;
+    rdfs:label "rue Vieille du Temple"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/10817> .
+
+factoids:LM_14517e5304194c109f3db950103755f6 a addr:Landmark ;
+    rdfs:label "rue Godefroy Cavaignac"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:LM_16a11737f0d644a5a59a13a15d35295e a addr:Landmark ;
+    rdfs:label "rue Armand Carrel"@fr ;
+    addr:hasAttribute factoids:ATTR_ff3c61a29a734baa9fe43dce3455be11 ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:LM_17358ce6dd4c42c0816a4c8f03bf7796 a addr:Landmark ;
+    rdfs:label "rue Mizon"@fr ;
+    addr:hasAttribute factoids:ATTR_6ec19a35c4644744a4036575a3291127 ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12269> .
+
+factoids:LM_1882d8330b3b4d859b5732377ffce88d a addr:Landmark ;
+    rdfs:label "rue de Charonne"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:LM_1a2866cba75b4d219bbcbd2b6282dfb9 a addr:Landmark ;
+    rdfs:label "place Jules Joffrin"@fr ;
+    addr:hasAttribute factoids:ATTR_6db0b4e47b3c4527a24693a57936404d ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11578> .
+
+factoids:LM_2109fc3b29b449e88f667dd998a029ab a addr:Landmark ;
+    rdfs:label "avenue Jean Jaurès"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:LM_2cb024ae8b16441b81a1137cb94f1288 a addr:Landmark ;
+    rdfs:label "rue de Lyon"@fr ;
+    addr:hasAttribute factoids:ATTR_783544f8e4834ab9956ab812e7db35e7 ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:LM_2f94f009fc2a4270aa5fa4e5f1d0f47e a addr:Landmark ;
+    rdfs:label "place du Bataillon du Pacifique"@fr ;
+    addr:hasAttribute factoids:ATTR_f0d84c64319d43e18b1e95d3c5f2eb5f ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9198> .
+
+factoids:LM_340dad16255446a1810bc6f5d101d9c6 a addr:Landmark ;
+    rdfs:label "avenue Ledru-Rollin"@fr ;
+    addr:hasAttribute factoids:ATTR_27652055764d4e48aee2b838d745b745 ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11753> .
+
+factoids:LM_352b8247ca0a4eb29965ef133cf5178e a addr:Landmark ;
+    rdfs:label "rue Payenne"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/10817> .
+
+factoids:LM_39e9b4f27058455c9fd511b373c54b87 a addr:Landmark ;
+    rdfs:label "rue Armand Carrel"@fr ;
+    addr:hasAttribute factoids:ATTR_e1c405b697974423a85f1ece39d07cda ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:LM_3a95923e6b7d4d92b43bd21a1346350f a addr:Landmark ;
+    rdfs:label "rue du Faubourg Saint-Antoine"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:LM_4b53b811a55349c8b7cb773554da6562 a addr:Landmark ;
+    rdfs:label "avenue Ledru-Rollin"@fr ;
+    addr:hasAttribute factoids:ATTR_a193349e61e6408faff82e8efb598e20 ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:LM_4f478b3d49204ba6a4f207636afa74d5 a addr:Landmark ;
+    rdfs:label "rue de Charonne"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:LM_56c6959e2a5a4029920eac745211d9fb a addr:Landmark ;
+    rdfs:label "rue du Faubourg Saint-Anoine"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:LM_58d9f11ab6bc40f7b5c9bafd32cea62c a addr:Landmark ;
+    rdfs:label "rue Lally-Tollendal"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:LM_5e359ea210364e0985f9456b6424a24e a addr:Landmark ;
+    rdfs:label "avenue Ledru-Rollin"@fr ;
+    addr:hasAttribute factoids:ATTR_8c16210f7eff4e3f86998d8313beacac ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:LM_67de7c460f784647a56e29bd1aa02dfa a addr:Landmark ;
+    rdfs:label "rue des Francs Bourgeois"@fr ;
+    addr:hasAttribute factoids:ATTR_07eb8bb616794d40803a15dcc60b1dda ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/10817> .
+
+factoids:LM_682a5bbcebdf420591e18fd72148fb44 a addr:Landmark ;
+    rdfs:label "rue des Archives"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/10817> .
+
+factoids:LM_6e9f32596c2245d1ab4139b5cc96621c a addr:Landmark ;
+    rdfs:label "passage Charles Dallery"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:LM_72df7f4f1c2b462995be9fc5b6b03feb a addr:Landmark ;
+    rdfs:label "avenue Ledru-Rollin"@fr ;
+    addr:hasAttribute factoids:ATTR_4db1b5bea56c447c931d390748a01b48 ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:LM_7bf2ca56a34b4bc3aadc8b89bd9abdef a addr:Landmark ;
+    rdfs:label "rue de Lyon"@fr ;
+    addr:hasAttribute factoids:ATTR_892a4c48f771465c8ded3517b0206ac2 ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:LM_7caf46f591544de285f0bf47b9f23ed4 a addr:Landmark ;
+    rdfs:label "avenue Daumesnil"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:LM_7ec540c043744c30890bbf7efecead02 a addr:Landmark ;
+    rdfs:label "rue Basfroi"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:LM_8911d6af86c1406cb015487633768174 a addr:Landmark ;
+    rdfs:label "rue de Meaux"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:LM_8f756422e4ca47d2a643e9fda177e900 a addr:Landmark ;
+    rdfs:label "rue Armand Carrel"@fr ;
+    addr:hasAttribute factoids:ATTR_aba32f1cc78944aea12827683be2b390 ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:LM_915f93ac64e74f9b8adbc3efda51af07 a addr:Landmark ;
+    rdfs:label "rue Lally-Tollendal"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:LM_936627ce7c7745389961914338410540 a addr:Landmark ;
+    rdfs:label "rue Clovis Hugues"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:LM_95818c7fcb8240069014d80b101eba46 a addr:Landmark ;
+    rdfs:label "rue Mizon"@fr ;
+    addr:hasAttribute factoids:ATTR_abbf2d9bf80648a4bd0f0df458479f9e ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12269> .
+
+factoids:LM_97a4d91351e24e208847a95366103863 a addr:Landmark ;
+    rdfs:label "rue Mizon"@fr ;
+    addr:hasAttribute factoids:ATTR_5996233ad9d3414387a7e5f2f84f543f ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12269> .
+
+factoids:LM_a1b97420fa5c491aa6a77090a569b0a3 a addr:Landmark ;
+    rdfs:label "place Jules Joffrin"@fr ;
+    addr:hasAttribute factoids:ATTR_3dc84f018f89404eb2629ffba8ce6c19 ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11578> .
+
+factoids:LM_a8e8215d1f1a499789ece7a39e6a7b24 a addr:Landmark ;
+    rdfs:label "Rue Armand Carrel"@fr ;
+    addr:hasAttribute factoids:ATTR_799a8dcc3e55465e80ca4fb8c0f83606 ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:LM_ab00086e22e8431ba4cbba9b8169dfb8 a addr:Landmark ;
+    rdfs:label "avenue Ledru-Rollin"@fr ;
+    addr:hasAttribute factoids:ATTR_5e450ee6ca124bafb4403ec966b874c5 ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:LM_ae86582e74394f21b406476a34e47d51 a addr:Landmark ;
+    rdfs:label "rue de Genève"@fr ;
+    addr:hasAttribute factoids:ATTR_8edb21432b9b45a58b600969eb24aa18 ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11753> .
+
+factoids:LM_b1163e5466f245b996a8d578ec79d13c a addr:Landmark ;
+    rdfs:label "place des Vosges"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/10817> .
+
+factoids:LM_b61e412f3db842bd89004c0c3f56dfb4 a addr:Landmark ;
+    rdfs:label "avenue Ledru-Rollin"@fr ;
+    addr:hasAttribute factoids:ATTR_f3eb0bda8b0846bea383beabea097bf4 ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:LM_c0c89bd607314e07a75d3e5e0d040797 a addr:Landmark ;
+    rdfs:label "rue des Francs Bourgeois"@fr ;
+    addr:hasAttribute factoids:ATTR_09e0236583f84f1b8c4f2fea09f5b709 ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/10817> .
+
+factoids:LM_c33d36767cd144148549763f7d3fbd2b a addr:Landmark ;
+    rdfs:label "rue de Lyon"@fr ;
+    addr:hasAttribute factoids:ATTR_874d0c6276b7456c824e9f5a42940954 ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:LM_c4ef6fcf6d9e4ef3b6ff1ccdd92c0e4d a addr:Landmark ;
+    rdfs:label "abattoir des Fourneaux"@fr ;
+    addr:isLandmarkType ltype:Structure ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12269> .
+
+factoids:LM_c72176eac380482eb94c5c1e40e2a0bf a addr:Landmark ;
+    rdfs:label "rue de Turenne"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/10817> .
+
+factoids:LM_d340ee29240445678b54c32f015b0e58 a addr:Landmark ;
+    rdfs:label "rue Armand Carrel"@fr ;
+    addr:hasAttribute factoids:ATTR_7e2c2b7f591f45a6b932aecedfb72052 ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:LM_d663c2c790b242b38bb26db6954e84db a addr:Landmark ;
+    rdfs:label "place Armand Carrel"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:LM_d99cb8c3258940f99ce488fb2e40824d a addr:Landmark ;
+    rdfs:label "rue des Francs Bourgeois"@fr ;
+    addr:hasAttribute factoids:ATTR_20636dd14b444cdaabc46cf968fa0fa2 ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/10817> .
+
+factoids:LM_dc4d97072b8b4863802744b66b9c98d7 a addr:Landmark ;
+    rdfs:label "rue Bouret"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:LM_dd7a91f8cc5c44e293441ab1ef78a866 a addr:Landmark ;
+    rdfs:label "rue du Père Corentin"@fr ;
+    addr:hasAttribute factoids:ATTR_5fd7fedd50834d278947f559addbebaa ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12740> .
+
+factoids:LM_e395dbaed5954d44ba3b53674cf0c9e7 a addr:Landmark ;
+    rdfs:label "rue de Turenne"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/10817> .
+
+factoids:LM_e857b4b09a2045d389dfa65bc8dd597c a addr:Landmark ;
+    rdfs:label "rue de Lesdiguières"@fr ;
+    addr:hasAttribute factoids:ATTR_9ff7d0d1cd5248f3b1bab412902c60cb ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11829> .
+
+factoids:LM_ead3d9ab5a1d468393b7e6646ddabfc6 a addr:Landmark ;
+    rdfs:label "rue du Père Corentin"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12740> .
+
+factoids:LM_faf9f100f67d49679972447df66155fa a addr:Landmark ;
+    rdfs:label "avenue Daumesnil"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:LM_fd7639d52dfc4aa9bb4839789603f6c6 a addr:Landmark ;
+    rdfs:label "avenue Jean Jaurès"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:LR_055dcef4fd6c4e33a15fa657d44057e2 a addr:LandmarkRelation ;
+    addr:isLandmarkRelationType lrtype:Within ;
+    addr:locatum factoids:LM_f5f3cb79fa2f4221ba29f2a082fd3cc6 ;
+    addr:relatum factoids:LM_4a7d1544bef44894954ec0eaca70df9f ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12740> .
+
+factoids:LR_0ef48e4b929d48388b8319e7283a7bfa a addr:LandmarkRelation ;
+    addr:isLandmarkRelationType lrtype:Within ;
+    addr:locatum factoids:LM_b7e0ae5d6c98403c8995bbad212d8905 ;
+    addr:relatum factoids:LM_2c3a9052789e449e8059582e192be04f ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11578> .
+
+factoids:LR_2c3bf316e9514cfc83d308b6b8a0a318 a addr:LandmarkRelation ;
+    addr:isLandmarkRelationType lrtype:Within ;
+    addr:locatum factoids:LM_c0e9170028dc443d9a9f2f6da44664d0 ;
+    addr:relatum factoids:LM_7e570390fdfd4f96bf310923b13a5809 ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11578> .
+
+factoids:LR_b3f30dd377734f119f361dfc3185c19e a addr:LandmarkRelation ;
+    addr:isLandmarkRelationType lrtype:Between ;
+    addr:locatum factoids:LM_a9daf4eddc0e4caf9c6885f92a894fdc ;
+    addr:relatum factoids:LM_44df1f5ae5d0411a88a320f468f0e699,
+        factoids:LM_b6f41f6b9ff542b2b3ba75a28b3b080b ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:EV_040e9f087dff42eebba6db30efaa35c4 a addr:Event ;
+    addr:hasTime factoids:TI_e88caa56e4904b08971b63c3b1efec7f ;
+    rdfs:comment "avenue Ledru-Rollin || ouverture || Décret du 16 avril 1859 (UP), entre la rue de Lyon et l'avenue Daumesnil (B)."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:EV_1271606bac6c4e87b7bcf723cab922fd a addr:Event ;
+    addr:hasTime factoids:TI_d57e3dbb16f04485a74650b56381a7ac ;
+    rdfs:comment "rue Armand Carrel || Numérotation || Deux tronçons (A et le segment de 70 m) ont été réunis en 1925 par décret du 5 juillet 1925."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:EV_18e951dd5c2c4807ba9b9354869c5755 a addr:Event ;
+    addr:hasTime factoids:TI_a5389aa5d8c2407d92d8886f514dfdee ;
+    rdfs:comment "rue Mizon || Classement || Décret du 10 mars 1903."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12269> .
+
+factoids:EV_2028127c285c4e12bd768c7ca387100c a addr:Event ;
+    addr:hasTime factoids:TI_ca49ca18e9d9407c8e57f8a462c307f7 ;
+    rdfs:comment "avenue Ledru-Rollin || Numérotation || Arrêté du 4 août 1921, partie M."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11753> .
+
+factoids:EV_3286e19b460644fa918e1dff7a875566 a addr:Event ;
+    addr:hasTime factoids:TI_00313d3a40ad4763a09d5302d463e022 ;
+    rdfs:comment "avenue Ledru Rollin || ouverture || Décret du 16 avril 1883 (UP), tronçon d'une longueur de 70 m environ à partir de l'avenue Daumesnil."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:EV_3977362d74b54d5184e0f0389cd9ea37 a addr:Event ;
+    addr:hasTime factoids:TI_6b929bde9c6d4963841cd657173a635e ;
+    rdfs:comment "rue de Lesdiguières || Dénomination || Arrêté du 1er mai 1879."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11829> .
+
+factoids:EV_3d0356cb27c34d8cb9e445c4c7bcb883 a addr:Event ;
+    addr:hasTime factoids:TI_c4f817011c7d412fa630143c3de5adee ;
+    rdfs:comment "rue du Père Corentin || Classement || Décret du 23 mai 1863, dans la voirie parisienne"@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12740> .
+
+factoids:EV_404aab2507224551b22bd85a8878b21d a addr:Event ;
+    addr:hasTime factoids:TI_d8ff6519627f42abb4228dcc37783111 ;
+    rdfs:comment "avenue Ledru Rollin || ouverture || Décret du 27 mai 1924 (UP), entre les rues Basfroi et Godefroy Cavaignac (F), partie exécutée en 1931."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:EV_45a7c68f33604833942151535a3393a9 a addr:Event ;
+    rdfs:comment "rue Mizon || Historique || Ouverte sur l'emplacement de l'abattoir des Fourneaux."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12269> .
+
+factoids:EV_45b3ac6b123b4480a3dd949918ae3d69 a addr:Event ;
+    addr:hasTime factoids:TI_1984500520ac4fbd8250f91a4467c6e9 ;
+    rdfs:comment "rue Armand Carrel || Numérotation || Arrêté du 14 avril 1939."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:EV_470fd29b1acb408aa118e2bc1a1245a3 a addr:Event ;
+    addr:hasTime factoids:TI_1a18dab8eb24428d999b82bba0e3924d ;
+    rdfs:comment "rue Armand Carrel || Classement || Décret du 26 mars 1885, depuis la place Armand Carrel jusqu'au droit des nos 11 et 16 (A)."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:EV_47a6464e5d6f4d91b778e0a5dc5e8602 a addr:Event ;
+    addr:hasTime factoids:TI_966e4b38acf447d1a01088b71f24d095 ;
+    rdfs:comment "rue du Père Corentin || Dénomination || Arrêté du 7 juillet 1945."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12740> .
+
+factoids:EV_4d6bccb1cfaf4e66924b722593b81fbb a addr:Event ;
+    addr:hasTime factoids:TI_7b38f27f9f574a31acc2113b76ebddd7 ;
+    rdfs:comment "rue des Francs Bourgeois || Dénomination || Arrêté du 26 décembre 1893, partie comprise entre la rue de Turenne et la place des Vosges."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/10817> .
+
+factoids:EV_5bc52fbbec2247a492420a8374202598 a addr:Event ;
+    addr:hasTime factoids:TI_a7f31a0d7c104a8ea13be1a402d4e269 ;
+    rdfs:comment "rue du Père Corentin || Numérotation || Arrêté du 5 décembre 1877."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12740> .
+
+factoids:EV_5f6f1a8bc31946bdb1ba63cba1c21d8a a addr:Event ;
+    addr:hasTime factoids:TI_2b801c7fa8e24911b3a6573b5a7eba35 ;
+    rdfs:comment "rue des Francs Bourgeois || Dénomination || Arrêté du 2 avril 1868, parties comprises entre les rues de Turenne et Payenne et entre les rues Vieille du Temple et des Archives."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/10817> .
+
+factoids:EV_60dd9d1b3dd840b7909c4902b71d2b8a a addr:Event ;
+    addr:hasTime factoids:TI_ca89910997b34210804784782676313e ;
+    rdfs:comment "avenue Ledru-Rollin || Historique || Précédemment, [...] rue de Genève (arr. du 1er février 1877) dans la partie N."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11753> .
+
+factoids:EV_688f9e0f562c4a07a351bcbd48644035 a addr:Event ;
+    addr:hasTime factoids:TI_d9c79e2c0ff041e4ad69ddf7c6bd80ae ;
+    rdfs:comment "rue Mizon || Dénomination || Arrêté du 12 août 1899."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12269> .
+
+factoids:EV_6ebfdc4bea174e31a9c9a49556d2b82c a addr:Event ;
+    addr:hasTime factoids:TI_3f49b71b6a6a46febc3cca2f71f6df06 ;
+    rdfs:comment "rue de Lyon || Numérotation || Arrêté du 29 mai 1900, partie A, côté pair."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:EV_70e3a57cd5e547cc8dad68610c9ebcac a addr:Event ;
+    addr:hasTime factoids:TI_a3885c0829a4446aad36d3f9efc3f662 ;
+    rdfs:comment "rue de Lyon || Ouverture || Ordonnance du 27 novembre 1847 (UP)."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:EV_77bba897c5ba45089017c1f5e948a5f7 a addr:Event ;
+    addr:hasTime factoids:TI_979db136e4e74f4abbf6987e7a640b5e ;
+    rdfs:comment "avenue Ledru-Rollin || Numérotation || Arrêté du 25 mars 1899, partie D."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11753> .
+
+factoids:EV_7839340eb992481fbf468c469791d926 a addr:Event ;
+    addr:hasTime factoids:TI_297799830801410f8391aa5a2a981c09 ;
+    rdfs:comment "avenue Ledru-Rollin || Numérotation || Arrêté du 14 novembre 1879, entre le passage Charles Dallery et la rue Basfroi (N)."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11753> .
+
+factoids:EV_80fb5ab4de214ec8911fe70051766c02 a addr:Event ;
+    addr:hasTime factoids:TI_78fa2ae8866949ad871b8f0a3cd6d189 ;
+    rdfs:comment "avenue Ledru-Rollin || Historique || Précédemment, avenue Lacuée (arrêté du 19 août 1864) dans les parties A et B"@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11753> .
+
+factoids:EV_8720bd5e5d884470b7d1f647f98845e9 a addr:Event ;
+    addr:hasTime factoids:TI_cf282ff6b87a4cad82a19b0079616e16 ;
+    rdfs:comment "rue Armand Carrel || Historique || Un décret du 16 juillet 1938, non exécuté, avait déclaré d'utilité publique le prolongement de la rue Armand Carrel jusqu'à l'avenue Jean Jaurès (C)."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:EV_92ede089e00143ce9b592b905aef50af a addr:Event ;
+    addr:hasTime factoids:TI_dd1275ecbb85484aa30a7cd0bfe5ff9c ;
+    rdfs:comment "avenue Ledru Rollin || ouverture || Décret du 12 août 1887 (UP), achèvement de la partie comprise entre l'avenue Daumesnil et la rue du Faubourg Saint-Antoine (C)."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:EV_99e53b8ee5ba4e3db66302ce729dd55f a addr:Event ;
+    addr:hasTime factoids:TI_0d19270433fa42fd84a6f84db1f6d485 ;
+    rdfs:comment "place Jules Joffrin || Ouverture || Decret du 8 juin 1858 (UP)."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11578> .
+
+factoids:EV_9c74d1ec75854882bd8ae69dc6c5e5c8 a addr:Event ;
+    addr:hasTime factoids:TI_b0ff50bfe6514daa8fe100a04a938202 ;
+    rdfs:comment "avenue Ledru-Rollin || Dénomination || Arrêté du 16 août 1879, parties A, B et N."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11753> .
+
+factoids:EV_9d6717f4ff7a4268a6a04cd5b88dd44b a addr:Event ;
+    addr:hasTime factoids:TI_c68cd11397cd46ef897c8283c111e2a8 ;
+    rdfs:comment "place du Bataillon du Pacifique || Dénomination || Arrêté municipal du 12 juillet 1985."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9198> .
+
+factoids:EV_a619a75f31ff46ab985574bf24712d10 a addr:Event ;
+    addr:hasTime factoids:TI_f4a84778d28f4a16903285e60c9afafd ;
+    rdfs:comment "place Jules Joffrin || Classement || Decret du 23 mai 1863, dans la voirie parisienne"@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11578> .
+
+factoids:EV_aa6cfc7f5b8d45a3b6d6339a16132818 a addr:Event ;
+    addr:hasTime factoids:TI_74f3a4a951f54bb29d4219205f2dac16 ;
+    rdfs:comment "rue Armand Carrel || Numérotation || Ouverture de la section entre la rue Lally-Tollendal et la rue Clovis Hugues par la Ville de Paris."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:EV_b04f9722e6944b1a8cf73667e4269ea8 a addr:Event ;
+    addr:hasTime factoids:TI_1723d88a057f419596977995e3559eb7 ;
+    rdfs:comment "avenue Ledru Rollin || ouverture || Décret du 30 janvier 1912 (UP), entre la rue de Charonne et le passage Charles Dallery (M)."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:EV_ce8f3953b6e742f3bea2e81aeb3f668c a addr:Event ;
+    addr:hasTime factoids:TI_da4255fcd604474ebe3b9853dd2bb173 ;
+    rdfs:comment "rue Armand Carrel || Dénomination || Arrêté municipal du 7 juin 1990, partie comprise entre la rue Clovis Hugues, l'avenue Jean Jaurès, et la rue Bouret."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:EV_d0055bf2499d4ceea6eabf0643f0c9c6 a addr:Event ;
+    addr:hasTime factoids:TI_ffd1f9d48ff14d468ee3df12f977e323 ;
+    rdfs:comment "rue des Francs Bourgeois || Numérotation || Arrêté du 3 janvier 1894 : nos 2, 2 bis, 2 ter, 1 et 1 bis."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/10817> .
+
+factoids:EV_d1563d7161be47d8a0493f01e06c59c2 a addr:Event ;
+    addr:hasTime factoids:TI_bdd9fd93a5094eeb861066ed49297088 ;
+    rdfs:comment "rue Mizon || Numérotation || Arrêté du 14 janvier 1901."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12269> .
+
+factoids:EV_d241fc4cde1f4b358969185bb46e172c a addr:Event ;
+    addr:hasTime factoids:TI_2b62ad0f025f4eb286a09322961ed7bf ;
+    rdfs:comment "avenue Ledru-Rollin || Numérotation || Arrêté du 11 avril 1890, partie C."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11753> .
+
+factoids:EV_d7b60edcd6524be6a487d4416c176923 a addr:Event ;
+    addr:hasTime factoids:TI_4d7e728cea524c60a93cb80e2c9c2907 ;
+    rdfs:comment "avenue Ledru-Rollin || Numérotation || Arrêté du 6 juin 1931, partie F."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11753> .
+
+factoids:EV_d99f5012d37040738aae2c48e346293e a addr:Event ;
+    rdfs:comment "rue Armand Carrel || Numérotation || Ouverture de la section entre la rue de Meaux et la rue Lally-Tollendal par la Ville de Paris."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:EV_da853bee73ba4f0db8f6a3c6748ec312 a addr:Event ;
+    addr:hasTime factoids:TI_83f1feed15c747988448884e561de468 ;
+    rdfs:comment "rue Mizon || Ouverture || Ouverte en 1899."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12269> .
+
+factoids:EV_e0227b224e3c453f8aa2c9f5700e7712 a addr:Event ;
+    addr:hasTime factoids:TI_a27169bbd82f46a1ab5c436d0a5dd3c4 ;
+    rdfs:comment "place Jules Joffrin || Denomination || Arrete du 29 juillet 1895."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11578> .
+
+factoids:EV_e9c5420f5aa149578e5eb06b2a68c454 a addr:Event ;
+    addr:hasTime factoids:TI_1b55483aded94e54ba656ddfeabe5fb5 ;
+    rdfs:comment "rue de Lyon || Dénomination || Ordonnance du 27 novembre 1847."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:EV_edd49ac8917e49ff8208b4aa24e40c73 a addr:Event ;
+    addr:hasTime factoids:TI_9a743c4702e44388ac844032e13d3e82 ;
+    rdfs:comment "avenue Ledru Rollin || ouverture || Décret du 11 décembre 1895 (UP), entre les rues du Faubourg Saint-Antoine et de Charonne (D)."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:EV_f638ed6da997430cb54ea4f66bbea8b6 a addr:Event ;
+    addr:hasTime factoids:TI_0ed5b03a3cfd456f8c11605ca0e8ca4b ;
+    rdfs:comment "rue Armand Carrel || Dénomination || Décret du 3 décembre 1885."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:EV_f76ea36b49ca48e2bced78b59fa5e37e a addr:Event ;
+    addr:hasTime factoids:TI_c188a4be72ff42a79c3aaa9b756ba934 ;
+    rdfs:comment "rue Armand Carrel || Numérotation || Le tronçon A de la rue Armand Carrel a été ouvert en 1883."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:LM_0175d321dc9b4cc2916c5cf5e30b036d a addr:Landmark ;
+    rdfs:label "avenue Ledru-Rollin"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11753> .
+
+factoids:LM_0294ff687ab84f10a4940c564bbb8686 a addr:Landmark ;
+    rdfs:label "avenue Ledru-Rollin"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11753> .
+
+factoids:LM_07e0d7c1e3844dee972cf4f908376be2 a addr:Landmark ;
+    rdfs:label "avenue Ledru-Rollin"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11753> .
+
+factoids:LM_1047227373744895bbc079aacab0a872 a addr:Landmark ;
+    rdfs:label "rue du Père Corentin"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12740> .
+
+factoids:LM_1d7df096df1741918d765f587f203e75 a addr:Landmark ;
+    rdfs:label "rue de la Voie Verte"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12740> .
+
+factoids:LM_1ed0eaf9155b4fa2b34bdf9511d8ad3c a addr:Landmark ;
+    rdfs:label "rue Armand Carrel"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:LM_2c3a9052789e449e8059582e192be04f a addr:Landmark ;
+    rdfs:label "Paris"@fr ;
+    addr:isLandmarkType ltype:Municipality ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11578> .
+
+factoids:LM_341b929e381244e39d55c750224a6adb a addr:Landmark ;
+    rdfs:label "rue Neuve Sainte-Catherine"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/10817> .
+
+factoids:LM_3c77ad8d6da04335bfb9f7b33d131627 a addr:Landmark ;
+    rdfs:label "avenue Ledru-Rollin"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11753> .
+
+factoids:LM_3fa35f1670234baba3a4ef80a6d5d4d7 a addr:Landmark ;
+    rdfs:label "avenue Ledru-Rollin"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11753> .
+
+factoids:LM_42db20136d864f66bfb2fd8d0fbbb46d a addr:Landmark ;
+    rdfs:label "place Jules Joffrin"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11578> .
+
+factoids:LM_44df1f5ae5d0411a88a320f468f0e699 a addr:Landmark ;
+    rdfs:label "avenue Daumnesnil"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:LM_466a656191804fea954a2866ce6ff60a a addr:Landmark ;
+    rdfs:label "place du Bataillon du Pacifique"@fr ;
+    addr:hasAttribute factoids:ATTR_585ab56421794033a034c14fb8c9694a ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9198> .
+
+factoids:LM_4a7d1544bef44894954ec0eaca70df9f a addr:Landmark ;
+    rdfs:label "Montrouge"@fr ;
+    addr:isLandmarkType ltype:Municipality ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12740> .
+
+factoids:LM_569f173cf226476ba63a7494f9398520 a addr:Landmark ;
+    rdfs:label "rue de Lyon"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:LM_71b660bca74142aa9029d7b1402b0380 a addr:Landmark ;
+    rdfs:label "rue Mizon"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12269> .
+
+factoids:LM_7e570390fdfd4f96bf310923b13a5809 a addr:Landmark ;
+    rdfs:label "Montmartre"@fr ;
+    addr:isLandmarkType ltype:Municipality ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11578> .
+
+factoids:LM_939fbf3d457348449e8379cefe7c9dce a addr:Landmark ;
+    rdfs:label "rue du Père Corentin"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12740> .
+
+factoids:LM_941586b21b594b1db30508d8492fd52b a addr:Landmark ;
+    rdfs:label "rue Treilhard"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:LM_95b15a04776548629579825936b95f72 a addr:Landmark ;
+    rdfs:label "rue Mizon"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12269> .
+
+factoids:LM_a2381b127f9c41e7a7e3405836bcdd34 a addr:Landmark ;
+    rdfs:label "rue du Père Corentin"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12740> .
+
+factoids:LM_a9daf4eddc0e4caf9c6885f92a894fdc a addr:Landmark ;
+    rdfs:label "avenue Ledru-Rollin"@fr ;
+    addr:hasAttribute factoids:ATTR_d513fd1d0be845acba8cc042fd2fb415 ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:LM_b6f41f6b9ff542b2b3ba75a28b3b080b a addr:Landmark ;
+    rdfs:label "rue de Lyon"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:LM_bccc398f62d14745b8e77e69c8cfa835 a addr:Landmark ;
+    rdfs:label "rue des Francs Bourgeois"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/10817> .
+
+factoids:LM_c0e9170028dc443d9a9f2f6da44664d0 a addr:Landmark ;
+    rdfs:label "place Jules Joffrin"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11578> .
+
+factoids:LM_d715165b49df42629538a1533ab10153 a addr:Landmark ;
+    rdfs:label "rue Armand Carrel"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:LM_d9e4a35813b9465680e36cf0d27b146f a addr:Landmark ;
+    rdfs:label "rue Armand Carrel"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:LM_e0d3b82a25374e139674acfea5c3f8c7 a addr:Landmark ;
+    rdfs:label "rue de Paradis au Marais"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/10817> .
+
+factoids:LM_e9c2d256e4154cfba76b90a9e2769477 a addr:Landmark ;
+    rdfs:label "place Sainte-Euphrasie"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11578> .
+
+factoids:LM_ea3494ae783b497dba57a8eb6e661947 a addr:Landmark ;
+    rdfs:label "voie AT/12"@fr ;
+    addr:hasAttribute factoids:ATTR_f64791476ad64df8814d935f504e2558 ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9198> .
+
+factoids:LM_f5f3cb79fa2f4221ba29f2a082fd3cc6 a addr:Landmark ;
+    rdfs:label "chemin vicinal"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12740> .
+
+factoids:TI_00313d3a40ad4763a09d5302d463e022 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1883-04-16"^^xsd:dateTimeStamp .
+
+factoids:TI_0d19270433fa42fd84a6f84db1f6d485 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1858-06-08"^^xsd:dateTimeStamp .
+
+factoids:TI_0ed5b03a3cfd456f8c11605ca0e8ca4b a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1885-12-03"^^xsd:dateTimeStamp .
+
+factoids:TI_1723d88a057f419596977995e3559eb7 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1912-01-30"^^xsd:dateTimeStamp .
+
+factoids:TI_1984500520ac4fbd8250f91a4467c6e9 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1939-04-14"^^xsd:dateTimeStamp .
+
+factoids:TI_1a18dab8eb24428d999b82bba0e3924d a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1885-03-26"^^xsd:dateTimeStamp .
+
+factoids:TI_1b55483aded94e54ba656ddfeabe5fb5 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1847-11-27"^^xsd:dateTimeStamp .
+
+factoids:TI_297799830801410f8391aa5a2a981c09 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1879-11-14"^^xsd:dateTimeStamp .
+
+factoids:TI_2b62ad0f025f4eb286a09322961ed7bf a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1890-04-11"^^xsd:dateTimeStamp .
+
+factoids:TI_2b801c7fa8e24911b3a6573b5a7eba35 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1868-04-02"^^xsd:dateTimeStamp .
+
+factoids:TI_3f49b71b6a6a46febc3cca2f71f6df06 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1900-05-29"^^xsd:dateTimeStamp .
+
+factoids:TI_4d7e728cea524c60a93cb80e2c9c2907 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1931-06-06"^^xsd:dateTimeStamp .
+
+factoids:TI_6b929bde9c6d4963841cd657173a635e a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1879-05-01"^^xsd:dateTimeStamp .
+
+factoids:TI_74f3a4a951f54bb29d4219205f2dac16 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitYear ;
+    addr:timeStamp "1938-01-01"^^xsd:dateTimeStamp .
+
+factoids:TI_78fa2ae8866949ad871b8f0a3cd6d189 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1864-08-19"^^xsd:dateTimeStamp .
+
+factoids:TI_7b38f27f9f574a31acc2113b76ebddd7 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1893-12-26"^^xsd:dateTimeStamp .
+
+factoids:TI_83f1feed15c747988448884e561de468 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitYear ;
+    addr:timeStamp "1899-01-01"^^xsd:dateTimeStamp .
+
+factoids:TI_966e4b38acf447d1a01088b71f24d095 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1945-07-07"^^xsd:dateTimeStamp .
+
+factoids:TI_979db136e4e74f4abbf6987e7a640b5e a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1899-03-25"^^xsd:dateTimeStamp .
+
+factoids:TI_9a743c4702e44388ac844032e13d3e82 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1895-12-11"^^xsd:dateTimeStamp .
+
+factoids:TI_a27169bbd82f46a1ab5c436d0a5dd3c4 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1895-07-29"^^xsd:dateTimeStamp .
+
+factoids:TI_a3885c0829a4446aad36d3f9efc3f662 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1847-11-27"^^xsd:dateTimeStamp .
+
+factoids:TI_a5389aa5d8c2407d92d8886f514dfdee a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1903-03-10"^^xsd:dateTimeStamp .
+
+factoids:TI_a7f31a0d7c104a8ea13be1a402d4e269 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1877-12-05"^^xsd:dateTimeStamp .
+
+factoids:TI_b0ff50bfe6514daa8fe100a04a938202 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1879-08-16"^^xsd:dateTimeStamp .
+
+factoids:TI_bdd9fd93a5094eeb861066ed49297088 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1901-01-14"^^xsd:dateTimeStamp .
+
+factoids:TI_c0f9331d0eae43f6bb7a345db28ca2d2 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1868-04-02"^^xsd:dateTimeStamp .
+
+factoids:TI_c188a4be72ff42a79c3aaa9b756ba934 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitYear ;
+    addr:timeStamp "1883-01-01"^^xsd:dateTimeStamp .
+
+factoids:TI_c4f817011c7d412fa630143c3de5adee a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1863-05-23"^^xsd:dateTimeStamp .
+
+factoids:TI_c68cd11397cd46ef897c8283c111e2a8 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1985-07-12"^^xsd:dateTimeStamp .
+
+factoids:TI_ca49ca18e9d9407c8e57f8a462c307f7 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1921-08-04"^^xsd:dateTimeStamp .
+
+factoids:TI_ca89910997b34210804784782676313e a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1877-02-01"^^xsd:dateTimeStamp .
+
+factoids:TI_cf282ff6b87a4cad82a19b0079616e16 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1938-07-16"^^xsd:dateTimeStamp .
+
+factoids:TI_d57e3dbb16f04485a74650b56381a7ac a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1925-07-05"^^xsd:dateTimeStamp .
+
+factoids:TI_d8ff6519627f42abb4228dcc37783111 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1924-05-27"^^xsd:dateTimeStamp .
+
+factoids:TI_d9c79e2c0ff041e4ad69ddf7c6bd80ae a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1899-08-12"^^xsd:dateTimeStamp .
+
+factoids:TI_da4255fcd604474ebe3b9853dd2bb173 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1990-06-07"^^xsd:dateTimeStamp .
+
+factoids:TI_dd1275ecbb85484aa30a7cd0bfe5ff9c a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1887-08-12"^^xsd:dateTimeStamp .
+
+factoids:TI_e88caa56e4904b08971b63c3b1efec7f a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1859-04-16"^^xsd:dateTimeStamp .
+
+factoids:TI_f4a84778d28f4a16903285e60c9afafd a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1863-05-23"^^xsd:dateTimeStamp .
+
+factoids:TI_ffd1f9d48ff14d468ee3df12f977e323 a addr:CrispTimeInstant ;
+    addr:timeCalendar wd:Q1985727 ;
+    addr:timePrecision time:unitDay ;
+    addr:timeStamp "1894-01-03"^^xsd:dateTimeStamp .
+
+facts:SRC_0000024fedb0417880e2b40ed7cf4d74 a rico:Record .
+
+facts:SRC_10f7726db2d6433db0c653ef16dc562e a rico:Record .
+
+facts:SRC_1c742c66327244cbbaec5b80a168b593 a rico:Record .
+
+facts:SRC_7f004ea2bdb4400d819a699e7e6e87d6 a rico:Record .
+
+facts:SRC_9ba8917f09b44ff99f12acedb58436cd a rico:Record .
+
+facts:SRC_ac850c459c0f436da0089d98a0e8c616 a rico:Record .
+
+facts:SRC_dc055f8d63e64629bdf023ca2fe04b1c a rico:Record .
+
+facts:SRC_f01d26c7166a43a0a6b2d81123ccae05 a rico:Record .
+
+factoids:ATTR_07eb8bb616794d40803a15dcc60b1dda a addr:Attribute ;
+    addr:isAttributeType atype:Geometry .
+
+factoids:ATTR_09e0236583f84f1b8c4f2fea09f5b709 a addr:Attribute ;
+    addr:isAttributeType atype:Name .
+
+factoids:ATTR_193ffbc968e547f88786357ecdd69801 a addr:Attribute ;
+    addr:hasAttributeVersion factoids:AV_20e559870de64132a64dcfa494252dd6 ;
+    addr:isAttributeType atype:Name .
+
+factoids:ATTR_20636dd14b444cdaabc46cf968fa0fa2 a addr:Attribute ;
+    addr:hasAttributeVersion factoids:AV_1daeef01a98c46f89c9e11e3d01cd007 ;
+    addr:isAttributeType atype:Name .
+
+factoids:ATTR_27652055764d4e48aee2b838d745b745 a addr:Attribute ;
+    addr:hasAttributeVersion factoids:AV_c1d18f5805e8460596dda0c2c4521586 ;
+    addr:isAttributeType atype:Name .
+
+factoids:ATTR_317fb92c67dd4b2d969cde263a630f25 a addr:Attribute ;
+    addr:hasAttributeVersion factoids:AV_856002510d234fb390ab47234ed79b3e ;
+    addr:isAttributeType atype:Name .
+
+factoids:ATTR_3dc84f018f89404eb2629ffba8ce6c19 a addr:Attribute ;
+    addr:hasAttributeVersion factoids:AV_5becdbbeb08b4f2187c27740e0b137d7 ;
+    addr:isAttributeType atype:Name .
+
+factoids:ATTR_4db1b5bea56c447c931d390748a01b48 a addr:Attribute ;
+    addr:isAttributeType atype:Geometry .
+
+factoids:ATTR_585ab56421794033a034c14fb8c9694a a addr:Attribute ;
+    addr:hasAttributeVersion factoids:AV_2af9bc1c9a7b40e8b7595b177ae5efa9 ;
+    addr:isAttributeType atype:Name .
+
+factoids:ATTR_5996233ad9d3414387a7e5f2f84f543f a addr:Attribute ;
+    addr:hasAttributeVersion factoids:AV_7eaecb9bf219450a9d9fcf772a8d20d1 ;
+    addr:isAttributeType atype:Name .
+
+factoids:ATTR_5e450ee6ca124bafb4403ec966b874c5 a addr:Attribute ;
+    addr:isAttributeType atype:Geometry .
+
+factoids:ATTR_5fd7fedd50834d278947f559addbebaa a addr:Attribute ;
+    addr:hasAttributeVersion factoids:AV_0f5a6c61f69d4888b8035e7bff95999f ;
+    addr:isAttributeType atype:Name .
+
+factoids:ATTR_6db0b4e47b3c4527a24693a57936404d a addr:Attribute ;
+    addr:isAttributeType atype:Geometry .
+
+factoids:ATTR_6ec19a35c4644744a4036575a3291127 a addr:Attribute ;
+    addr:isAttributeType atype:Geometry .
+
+factoids:ATTR_783544f8e4834ab9956ab812e7db35e7 a addr:Attribute ;
+    addr:isAttributeType atype:Geometry .
+
+factoids:ATTR_799a8dcc3e55465e80ca4fb8c0f83606 a addr:Attribute ;
+    addr:isAttributeType atype:Geometry .
+
+factoids:ATTR_7e2c2b7f591f45a6b932aecedfb72052 a addr:Attribute ;
+    addr:hasAttributeVersion factoids:AV_f743a09c5584443fb201aae5ee7f1ce6 ;
+    addr:isAttributeType atype:Name .
+
+factoids:ATTR_874d0c6276b7456c824e9f5a42940954 a addr:Attribute ;
+    addr:hasAttributeVersion factoids:AV_3425ca1a134447faa2dca1b1c73a1e74 ;
+    addr:isAttributeType atype:Name .
+
+factoids:ATTR_892a4c48f771465c8ded3517b0206ac2 a addr:Attribute ;
+    addr:isAttributeType atype:Geometry .
+
+factoids:ATTR_8c16210f7eff4e3f86998d8313beacac a addr:Attribute ;
+    addr:isAttributeType atype:Geometry .
+
+factoids:ATTR_8edb21432b9b45a58b600969eb24aa18 a addr:Attribute ;
+    addr:hasAttributeVersion factoids:AV_339f18010f22449fbc028cf5ade71675 ;
+    addr:isAttributeType atype:Name .
+
+factoids:ATTR_9ff7d0d1cd5248f3b1bab412902c60cb a addr:Attribute ;
+    addr:hasAttributeVersion factoids:AV_d53f5b4c15614effbdd5454658230a71 ;
+    addr:isAttributeType atype:Name .
+
+factoids:ATTR_a193349e61e6408faff82e8efb598e20 a addr:Attribute ;
+    addr:isAttributeType atype:Geometry .
+
+factoids:ATTR_aba32f1cc78944aea12827683be2b390 a addr:Attribute ;
+    addr:isAttributeType atype:Geometry .
+
+factoids:ATTR_abbf2d9bf80648a4bd0f0df458479f9e a addr:Attribute ;
+    addr:isAttributeType atype:Geometry .
+
+factoids:ATTR_d513fd1d0be845acba8cc042fd2fb415 a addr:Attribute ;
+    addr:isAttributeType atype:Geometry .
+
+factoids:ATTR_e1c405b697974423a85f1ece39d07cda a addr:Attribute ;
+    addr:isAttributeType atype:Geometry .
+
+factoids:ATTR_f0d84c64319d43e18b1e95d3c5f2eb5f a addr:Attribute ;
+    addr:hasAttributeVersion factoids:AV_f6688419d86a4b77851c43b0451bcc07 ;
+    addr:isAttributeType atype:Name .
+
+factoids:ATTR_f3eb0bda8b0846bea383beabea097bf4 a addr:Attribute ;
+    addr:isAttributeType atype:Geometry .
+
+factoids:ATTR_f64791476ad64df8814d935f504e2558 a addr:Attribute ;
+    addr:hasAttributeVersion factoids:AV_81a783c0e5cb4e1685fd81607b3135fd ;
+    addr:isAttributeType atype:Name .
+
+factoids:ATTR_ff3c61a29a734baa9fe43dce3455be11 a addr:Attribute ;
+    addr:isAttributeType atype:Geometry .
+
+factoids:AV_0f5a6c61f69d4888b8035e7bff95999f a addr:AttributeVersion ;
+    addr:versionValue "rue du Père Corentin"@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12740> .
+
+factoids:AV_1daeef01a98c46f89c9e11e3d01cd007 a addr:AttributeVersion ;
+    addr:versionValue "rue des Francs Bourgeois"@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/10817> .
+
+factoids:AV_20e559870de64132a64dcfa494252dd6 a addr:AttributeVersion ;
+    addr:versionValue "rue Armand Carrel"@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:AV_2af9bc1c9a7b40e8b7595b177ae5efa9 a addr:AttributeVersion ;
+    addr:versionValue "place du Bataillon du Pacifique"@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9198> .
+
+factoids:AV_339f18010f22449fbc028cf5ade71675 a addr:AttributeVersion ;
+    addr:versionValue "rue de Genève"@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11753> .
+
+factoids:AV_3425ca1a134447faa2dca1b1c73a1e74 a addr:AttributeVersion ;
+    addr:versionValue "rue de Lyon"@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:AV_5becdbbeb08b4f2187c27740e0b137d7 a addr:AttributeVersion ;
+    addr:versionValue "place Jules Joffrin"@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11578> .
+
+factoids:AV_7eaecb9bf219450a9d9fcf772a8d20d1 a addr:AttributeVersion ;
+    addr:versionValue "rue Mizon"@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12269> .
+
+factoids:AV_81a783c0e5cb4e1685fd81607b3135fd a addr:AttributeVersion ;
+    addr:versionValue "voie AT/12"@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9198> .
+
+factoids:AV_856002510d234fb390ab47234ed79b3e a addr:AttributeVersion ;
+    addr:versionValue "avenue Lacuée"@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11753> .
+
+factoids:AV_c1d18f5805e8460596dda0c2c4521586 a addr:AttributeVersion ;
+    addr:versionValue "avenue Ledru-Rollin"@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11753> .
+
+factoids:AV_d53f5b4c15614effbdd5454658230a71 a addr:AttributeVersion ;
+    addr:versionValue "rue de Lesdiguières"@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11829> .
+
+factoids:AV_f6688419d86a4b77851c43b0451bcc07 a addr:AttributeVersion ;
+    addr:versionValue "place du Bataillon du Pacifique"@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9198> .
+
+factoids:AV_f743a09c5584443fb201aae5ee7f1ce6 a addr:AttributeVersion ;
+    addr:versionValue "rue Armand Carrel"@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> .
+
+factoids:EV_29c9a016c083446dac58919a438567a5 a addr:Event ;
+    rdfs:comment "rue de Lyon || Historique || L'ouverture de la rue de Lyon a supprimé la rue Treilhard."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> .
+
+factoids:EV_557e45aef29447c68146adf00b413eb2 a addr:Event ;
+    rdfs:comment "place Jules Joffrin || Historique || Precedemment place Sainte-Euphrasie."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11578> .
+
+factoids:EV_cfde5d80be7f4256898be919178b75ac a addr:Event ;
+    rdfs:comment "rue du Père Corentin || Historique || Précédemment rue de la Voie Verte."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12740> .
+
+factoids:LM_b7e0ae5d6c98403c8995bbad212d8905 a addr:Landmark ;
+    rdfs:label "place Jules Joffrin"@fr ;
+    addr:isLandmarkType ltype:Thoroughfare ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11578> .
+
+facts:SRC_6277f5ceef00428cb5cb2e8f6fa5a223 a rico:Record .
+
+factoids:EV_d83efaaaeebb4520aa85b6755ebd41a8 a addr:Event ;
+    addr:hasTime factoids:TI_c0f9331d0eae43f6bb7a345db28ca2d2 ;
+    rdfs:comment "rue des Francs Bourgeois || Historique || L'arr. du 2 avril 1868, réunissait la rue Neuve Sainte-Catherine (comprise entre les rues de Turenne et Payenne) et la rue de Paradis au Marais (comprise entre les rues Vieille du Temple et des Archives) à la rue des Francs Bourgeois (comprise entre les rues Payenne et Vieille du Temple)."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/10817> .
+
+<https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11829> a prov:Entity ;
+    rico:isOrWasDescribedBy facts:SRC_f01d26c7166a43a0a6b2d81123ccae05 .
+
+factoids:EV_5114f325cbf8449ca9fc471c93c72604 a addr:Event ;
+    rdfs:comment "place du Bataillon du Pacifique || Historique || Elle avait été provisoirement dénommée AT/12."@fr ;
+    prov:wasDerivedFrom <https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9198> .
+
+<https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9198> a prov:Entity ;
+    rico:isOrWasDescribedBy facts:SRC_7f004ea2bdb4400d819a699e7e6e87d6 .
+
+<https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12269> a prov:Entity ;
+    rico:isOrWasDescribedBy facts:SRC_10f7726db2d6433db0c653ef16dc562e .
+
+<https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12740> a prov:Entity ;
+    rico:isOrWasDescribedBy facts:SRC_ac850c459c0f436da0089d98a0e8c616 .
+
+<https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11578> a prov:Entity ;
+    rico:isOrWasDescribedBy facts:SRC_9ba8917f09b44ff99f12acedb58436cd .
+
+<https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/10817> a prov:Entity ;
+    rico:isOrWasDescribedBy facts:SRC_dc055f8d63e64629bdf023ca2fe04b1c .
+
+<https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11753> a prov:Entity ;
+    rico:isOrWasDescribedBy facts:SRC_6277f5ceef00428cb5cb2e8f6fa5a223 .
+
+<https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9051> a prov:Entity ;
+    rico:isOrWasDescribedBy facts:SRC_1c742c66327244cbbaec5b80a168b593 .
+
+<https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11970> a prov:Entity ;
+    rico:isOrWasDescribedBy facts:SRC_0000024fedb0417880e2b40ed7cf4d74,
+        facts:SRC_6277f5ceef00428cb5cb2e8f6fa5a223 .
+

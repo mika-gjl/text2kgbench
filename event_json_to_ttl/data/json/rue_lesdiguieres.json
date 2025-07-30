@@ -1,0 +1,38 @@
+{
+   "source":{
+      
+   },
+   "events":[
+      {
+         "time":{
+            "stamp":"1879-05-01",
+            "calendar":"gregorian",
+            "precision":"day"
+         },
+         "label":"rue de Lesdiguières || Dénomination || Arrêté du 1er mai 1879.",
+         "lang":"fr",
+         "provenance":{
+            "uri":"https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11829_denomination"
+         },
+         "landmarks":[
+            {
+               "id":1,
+               "label":"rue de Lesdiguières",
+               "type":"thoroughfare",
+               "changes":[
+                  {
+                     "on":"attribute",
+                     "attribute":"name",
+                     "makes_effective":[
+                        {
+                           "value":"rue de Lesdiguières",
+                           "lang":"fr"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

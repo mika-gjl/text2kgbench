@@ -1,0 +1,484 @@
+{
+    "1": {
+        "id": "10010_dénomination",
+        "sent": "port de la conférence || Dénomination || Décision préfectorale 18 juillet 1905",
+        "triples": [
+            [
+                "Port de la Conférence",
+                "isLandmarkType",
+                "thoroughfare"
+            ],
+            [
+                "Port de la Conférence",
+                "hasNewName",
+                "port de la Conférence"
+            ],
+            [
+                "Port de la Conférence",
+                "hasNameChangeOn",
+                "1905-07-18"
+            ]
+        ]
+    },
+    "2": {
+        "id": "10017_classement",
+        "sent": "avenue constant coquelin || Classement || Arrêté du 9 juin 1931",
+        "triples": [
+            [
+                "Avenue Constant Coquelin",
+                "isLandmarkType",
+                "thoroughfare"
+            ],
+            [
+                "Avenue Constant Coquelin",
+                "isClassifiedOn",
+                "1931-06-09"
+            ]
+        ]
+    },
+    "3": {
+        "id": "10017_ouverture",
+        "sent": "avenue constant coquelin || Ouverture || Créée en 1911",
+        "triples": [
+            [
+                "Avenue Constant Coquelin",
+                "isLandmarkType",
+                "thoroughfare"
+            ],
+            [
+                "Avenue Constant Coquelin",
+                "hasGeometryChangeOn",
+                "1911"
+            ]
+        ]
+    },
+    "4": {
+        "id": "10063_classement_1",
+        "sent": "boulevard de courcelles || Classement || Décret du 23 mai 1863, dans la voirie parisienne",
+        "triples": [
+            [
+                "Boulevard de Courcelles",
+                "isLandmarkType",
+                "thoroughfare"
+            ],
+            [
+                "Boulevard de Courcelles",
+                "isClassifiedOn",
+                "1863-05-23"
+            ]
+        ]
+    },
+    "5": {
+        "id": "10063_classement_2",
+        "sent": "boulevard de courcelles || Classement || Précédemment voie de l'ancienne commune des Batignolles et de la commune de Neuilly",
+        "triples": [
+            [
+                "Boulevard de Courcelles",
+                "isLandmarkType",
+                "thoroughfare"
+            ],
+            [
+                "Boulevard de Courcelles",
+                "isClassifiedOn",
+                "noTime"
+            ]
+        ]
+    },
+    "6": {
+        "id": "10063_dénomination",
+        "sent": "boulevard de courcelles || Dénomination || Arrêté du 30 décembre 1864",
+        "triples": [
+            [
+                "Boulevard de Courcelles",
+                "isLandmarkType",
+                "thoroughfare"
+            ],
+            [
+                "Boulevard de Courcelles",
+                "hasNewName",
+                "boulevard de Courcelles"
+            ],
+            [
+                "Boulevard de Courcelles",
+                "hasNameChangeOn",
+                "1864-12-30"
+            ]
+        ]
+    },
+    "7": {
+        "id": "10063_historique_1",
+        "sent": "boulevard de courcelles || Historique || Précédemment : 1° A l'extérieur de l'ancien mur d'octroi : boulevard de Monceau, entre l'avenue de Villiers et la rue de Courcelles",
+        "triples": [
+            [
+                "Boulevard de Courcelles",
+                "isLandmarkType",
+                "thoroughfare"
+            ]
+        ]
+    },
+    "8": {
+        "id": "10063_historique_2",
+        "sent": "boulevard de courcelles || Historique || boulevard de Courcelles, le surplus",
+        "triples": [
+            [
+                "Boulevard de Courcelles",
+                "isLandmarkType",
+                "thoroughfare"
+            ]
+        ]
+    },
+    "9": {
+        "id": "10063_historique_3",
+        "sent": "boulevard de courcelles || Historique || 2° A l'intérieur de l'ancien mur d'octroi : chemin de ronde de Courcelles, entre la rue de Courcelles et l'avenue de Wagram",
+        "triples": [
+            [
+                "Boulevard de Courcelles",
+                "isLandmarkType",
+                "thoroughfare"
+            ]
+        ]
+    },
+    "10": {
+        "id": "10063_historique_4",
+        "sent": "boulevard de courcelles || Historique || La partie comprise entre les rues Georges Berger et de Prony, a été dénommée place de la République Dominicaine par arr du 30 août 1958",
+        "triples": [
+            [
+                "Place de la République Dominicaine",
+                "isLandmarkType",
+                "thoroughfare"
+            ],
+            [
+                "Place de la République Dominicaine",
+                "hasNewName",
+                "place de la République Dominicaine"
+            ],
+            [
+                "Place de la République Dominicaine",
+                "hasNameChangeOn",
+                "1958-08-30"
+            ]
+        ]
+    },
+    "11": {
+        "id": "10063_historique_5",
+        "sent": "boulevard de courcelles || Historique || Le carrefour formé avec les rues de Courcelles et de Chazelles a été dénommé place de la République de l'Equateur en 1971",
+        "triples": [
+            [
+                "Place de la République de l'Equateur",
+                "isLandmarkType",
+                "thoroughfare"
+            ],
+            [
+                "Place de la République de l'Equateur",
+                "hasNewName",
+                "place de la République de l'Equateur"
+            ],
+            [
+                "Place de la République de l'Equateur",
+                "hasNameChangeOn",
+                "1971"
+            ]
+        ]
+    },
+    "12": {
+        "id": "10063_historique_6",
+        "sent": "boulevard de courcelles || Historique || Une partie du boulevard de Courcelles située au débouché de l'avenue de Villiers a été nommée place Prosper Goubaux",
+        "triples": [
+            [
+                "Boulevard de Courcelles",
+                "isLandmarkType",
+                "thoroughfare"
+            ]
+        ]
+    },
+    "13": {
+        "id": "10063_ouverture",
+        "sent": "boulevard de courcelles || Ouverture || Ordonnance du Bureau des finances du 16 janvier 1789",
+        "triples": [
+            [
+                "Boulevard de Courcelles",
+                "isLandmarkType",
+                "thoroughfare"
+            ],
+            [
+                "Boulevard de Courcelles",
+                "hasGeometryChangeOn",
+                "1789-01-16"
+            ]
+        ]
+    },
+    "14": {
+        "id": "10069_classement_1",
+        "sent": "rue des couronnes || Classement || Décret du 23 mai 1863, dans la voirie parisienne (partie A)",
+        "triples": [
+            [
+                "Rue des Couronnes",
+                "isLandmarkType",
+                "thoroughfare"
+            ],
+            [
+                "Rue des Couronnes",
+                "isClassifiedOn",
+                "1863-05-23"
+            ]
+        ]
+    },
+    "15": {
+        "id": "10069_classement_2",
+        "sent": "rue des couronnes || Classement || Précédemment, voie de l'ancienne commune de Belleville dans cette partie",
+        "triples": [
+            [
+                "Rue des Couronnes",
+                "isLandmarkType",
+                "thoroughfare"
+            ],
+            [
+                "Rue des Couronnes",
+                "within",
+                "Belleville"
+            ],
+            [
+                "Belleville",
+                "isLandmarkType",
+                "municipality"
+            ],
+            [
+                "Rue des Couronnes",
+                "isClassifiedOn",
+                "noTime"
+            ]
+        ]
+    },
+    "16": {
+        "id": "10069_historique_1",
+        "sent": "rue des couronnes || Historique || La partie A est tracée sur le plan de Roussel (1730)",
+        "triples": [
+            [
+                "Rue des Couronnes",
+                "isLandmarkType",
+                "thoroughfare"
+            ]
+        ]
+    },
+    "17": {
+        "id": "10069_historique_2",
+        "sent": "rue des couronnes || Historique || Le tronçon entre la Caroline (actuellement rue Julien Lacroix) et la chaussée de Ménilmontant (actuellement rue de Ménilmontant) a été dénommé rue Julien Lacroix par arrêté préfectoral du 2 avril 1868",
+        "triples": [
+            [
+                "Rue Julien Lacroix",
+                "isLandmarkType",
+                "thoroughfare"
+            ],
+            [
+                "Rue Julien Lacroix",
+                "hasNewName",
+                "rue Julien Lacroix"
+            ],
+            [
+                "Rue Julien Lacroix",
+                "hasNameChangeOn",
+                "1868-04-02"
+            ]
+        ]
+    },
+    "18": {
+        "id": "10069_numérotation",
+        "sent": "rue des couronnes || Numérotation || Arrêté du 2 décembre 1882",
+        "triples": [
+            [
+                "Rue des Couronnes",
+                "isLandmarkType",
+                "thoroughfare"
+            ],
+            [
+                "Rue des Couronnes",
+                "isNumberedOn",
+                "1882-12-02"
+            ]
+        ]
+    },
+    "19": {
+        "id": "10069_ouverture",
+        "sent": "rue des couronnes || Ouverture || Décret du 25 mars 1878 (UP), partie B",
+        "triples": [
+            [
+                "Rue des Couronnes",
+                "isLandmarkType",
+                "thoroughfare"
+            ],
+            [
+                "Rue des Couronnes",
+                "hasGeometryChangeOn",
+                "1878-03-25"
+            ]
+        ]
+    },
+    "20": {
+        "id": "10125_dénomination",
+        "sent": "rue du dahomey || Dénomination || Arrêté du 28 décembre 1894",
+        "triples": [
+            [
+                "Rue du Dahomey",
+                "isLandmarkType",
+                "thoroughfare"
+            ],
+            [
+                "Rue du Dahomey",
+                "hasNewName",
+                "rue du Dahomey"
+            ],
+            [
+                "Rue du Dahomey",
+                "hasNameChangeOn",
+                "1894-12-28"
+            ]
+        ]
+    },
+    "21": {
+        "id": "10125_historique_1",
+        "sent": "rue du dahomey || Historique || Dénommée anciennement cul-de-sac du Petit Jardinet",
+        "triples": [
+            [
+                "Rue du Dahomey",
+                "isLandmarkType",
+                "thoroughfare"
+            ],
+            [
+                "Rue du Dahomey",
+                "hasOldName",
+                "cul-de-sac du Petit Jardinet"
+            ],
+            [
+                "Rue du Dahomey",
+                "hasNewName",
+                "rue du Dahomey"
+            ],
+            [
+                "Rue du Dahomey",
+                "hasNameChangeOn",
+                "noTime"
+            ]
+        ]
+    },
+    "22": {
+        "id": "10125_historique_2",
+        "sent": "rue du dahomey || Historique || puis, impasse Saint-Bernard, cul-de-sac Sainte-Marguerite, passage Saint-Bernard",
+        "triples": [
+            [
+                "Rue du Dahomey",
+                "isLandmarkType",
+                "thoroughfare"
+            ]
+        ]
+    },
+    "23": {
+        "id": "10158_classement_1",
+        "sent": "rue dareau || Classement || Décret du 23 mai 1863, dans la voirie parisienne",
+        "triples": [
+            [
+                "Rue Dareau",
+                "isLandmarkType",
+                "thoroughfare"
+            ],
+            [
+                "Rue Dareau",
+                "isClassifiedOn",
+                "1863-05-23"
+            ]
+        ]
+    },
+    "24": {
+        "id": "10158_classement_2",
+        "sent": "rue dareau || Classement || Précédemment voie des communes de Gentilly et de Montrouge",
+        "triples": [
+            [
+                "Rue Dareau",
+                "isLandmarkType",
+                "thoroughfare"
+            ],
+            [
+                "Rue Dareau",
+                "within",
+                "Gentilly;Montrouge"
+            ],
+            [
+                "Gentilly;Montrouge",
+                "isLandmarkType",
+                "municipality;municipality"
+            ],
+            [
+                "Rue Dareau",
+                "isClassifiedOn",
+                "noTime"
+            ]
+        ]
+    },
+    "25": {
+        "id": "10158_dénomination",
+        "sent": "rue dareau || Dénomination || Délibération du Conseil municipal de Montrouge du 13 février 1858",
+        "triples": [
+            [
+                "Rue Dareau",
+                "isLandmarkType",
+                "thoroughfare"
+            ],
+            [
+                "Rue Dareau",
+                "hasNewName",
+                "rue Dareau"
+            ],
+            [
+                "Rue Dareau",
+                "hasNameChangeOn",
+                "1858-02-13"
+            ]
+        ]
+    },
+    "26": {
+        "id": "10158_historique_1",
+        "sent": "rue dareau || Historique || Précédemment partie de la rue des Catacombes",
+        "triples": [
+            [
+                "Rue Dareau",
+                "isLandmarkType",
+                "thoroughfare"
+            ]
+        ]
+    },
+    "1000": {
+        "id": "10063_classement_2",
+        "sent": "boulevard de courcelles || Classement || Précédemment voie de l'ancienne commune des Batignolles et de la commune de Neuilly",
+        "triples": [
+            [
+                "Batignolles",
+                "isLandmarkType",
+                "municipality"
+            ],
+            [
+                "Boulevard de Courcelles",
+                "isLandmarkType",
+                "thoroughfare"
+            ],
+            [
+                "Boulevard de Courcelles",
+                "within",
+                "Neuilly"
+            ],
+            [
+                "Boulevard de Courcelles",
+                "within",
+                "Batignolles"
+            ],
+            [
+                "Boulevard de Courcelles",
+                "hasDisappearedRelationOn",
+                "noTime"
+            ],
+            [
+                "Neuilly",
+                "isLandmarkType",
+                "municipality"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+@prefix ns1: <http://www.ontotext.com/config/graphdb#> .
+@prefix ns2: <http://www.openrdf.org/config/repository#> .
+@prefix ns3: <http://www.openrdf.org/config/repository/sail#> .
+@prefix ns4: <http://www.openrdf.org/config/sail#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a ns2:Repository ;
+    ns2:repositoryID "text2KGbenchTest" ;
+    ns2:repositoryImpl [ ns2:repositoryType "graphdb:SailRepository" ;
+            ns3:sailImpl [ ns1:base-URL "http://example.org/owlim#" ;
+                    ns1:check-for-inconsistencies false ;
+                    ns1:defaultNS "" ;
+                    ns1:disable-sameAs "true" ;
+                    ns1:enable-context-index "true" ;
+                    ns1:enable-literal-index "true" ;
+                    ns1:enablePredicateList "true" ;
+                    ns1:entity-id-size "32" ;
+                    ns1:entity-index-size "10000000" ;
+                    ns1:imports "" ;
+                    ns1:in-memory-literal-properties "true" ;
+                    ns1:query-limit-results "0" ;
+                    ns1:query-timeout "0" ;
+                    ns1:read-only "false" ;
+                    ns1:repository-type "file-repository" ;
+                    ns1:ruleset "empty" ;
+                    ns1:storage-folder "storage" ;
+                    ns1:throw-QueryEvaluationException-on-timeout "false" ;
+                    ns4:sailType "graphdb:Sail" ] ] .
+

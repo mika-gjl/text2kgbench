@@ -1,0 +1,133 @@
+--- 11753_ouverture_6 JSON invalide ---
+{
+  "id": "avenue_Ledru_Rollin_ouverture_1924",
+  "response": "avenue Ledru Rollin || ouverture || Décret du 27 mai 1924 (UP), entre les rues Basfroi et Godefroy Cavaignac (F), partie exécutée en 1931.",
+  "triples": [
+    ["EV_c1b2a38f-1234-4e56-b789-c0d1e2f3a4b5", "hasTime", "1924-05-27"],
+    ["EV_c1b2a38f-1234-4e56-b789-c0d1e2f3a4b5", "hasChange", "CG_d2e3f4a5-5678-4f67-a890-d1e2f3a4b5c6"],
+    ["CG_d2e3f4a5-5678-4f67-a890-d1e2f3a4b5c6", "isChangeType", "attribute_version_transition"],
+    ["CG_d2e3f4a5-5678-4f67-a890-d1e2f3a4b5c6", "appliedTo", "ATTR_e3f4a5b6-9012-4a78-b901-e2f3a4b5c6d7"],
+    ["ATTR_e3f4a5b6-9012-4a78-b901-e2f3a4b5c6d7", "isAttributeType", "geometry"],
+    ["LM_a0b1c2d3-3456-4b67-8901-a9b8c7d6e5f4", "isLandmarkType", "thoroughfare"],
+    ["LM_a0b1c2d3-3456-4b67-8901-a9b8c7d6e5f4", "label", "\"avenue Ledru Rollin\"@fr"],
+    ["LM_a0b1c2d3-3456-4b67-8901-a9b8c7d6e5f4", "hasAttribute", "ATTR_e3f4a5b6-9012-4a78-b901-e2f3a4b5c6d7"],
+    ["LM_b1c2d3e4-7890-4c78-9012-b8c7d6e5f4a3", "isLandmarkType", "thoroughfare"],
+    ["LM_b1c2d3e4-7890-4c78-9012-b8c7d6e5f4a3", "label", "\"rue Basfroi\"@fr"],
+    ["LM_c2d3e4f5-1234-4d89-0123-c7d6e5f4a3b2", "isLandmarkType", "thoroughfare"],
+    ["LM_c2d3e4f5-1234-4d89-0123-c7d6e5f4a3b2", "label", "\"rue Godefroy Cavaignac\"@fr"],
+    ["LMR_f4a5b6c7-4567-4e90-1234-f3a4b5c6d7e8", "isLandmarkRelationType", "between"],
+    ["LMR_f4a5b6c7-4567-4e90-1234-f3a4b5c6d7e8", "locatum", "LM_a0b1c2d3-3456-4b67-8901-a9b8c7d6e5f4"],
+    ["LMR_f4a5b6c7-4567-4e90-1234-f3a4b5c6d7e8", "relatum", "LM_b1c2d3e4-7890-4c78-9012-b8c7d6e5f4a3"],
+    ["LMR_f4a5b6c7-4567-4e90-1234-f3a4b5c6d7e8", "relatum", "LM_c2d3e4f5-1234-4d89-0123-c7d6e5f4a3b2"]
+  ]
+}
+```
+
+--- 11753_ouverture_5 JSON invalide ---
+{
+  "id": "avenue_ledru_rollin_ouverture_19120130",
+  "response": "avenue Ledru Rollin || ouverture || Décret du 30 janvier 1912 (UP), entre la rue de Charonne et le passage Charles Dallery (M).",
+  "triples": [
+    ["EV_a1b2c3d4e5f64a7b8c9d0e1f2a3b4c5d", "hasTime", "1912-01-30"],
+    ["EV_a1b2c3d4e5f64a7b8c9d0e1f2a3b4c5d", "hasChange", "CG_b1c2d3e4f5a64b7c8d9e0f1a2b3c4d5e"],
+    ["CG_b1c2d3e4f5a64b7c8d9e0f1a2b3c4d5e", "isChangeType", "attribute_version_transition"],
+    ["CG_b1c2d3e4f5a64b7c8d9e0f1a2b3c4d5e", "appliedTo", "ATTR_c1d2e3f4a5b64c7d8e9f0a1b2c3d4e5f"],
+    ["ATTR_c1d2e3f4a5b64c7d8e9f0a1b2c3d4e5f", "isAttributeType", "geometry"],
+    ["LM_d1e2f3a4b5c64d7e8f9a0b1c2d3e4f5a", "isLandmarkType", "thoroughfare"],
+    ["LM_d1e2f3a4b5c64d7e8f9a0b1c2d3e4f5a", "label", "\"avenue Ledru Rollin\"@fr"],
+    ["LM_e1f2a3b4c5d64e7f8a9b0c1d2e3f4a5b", "isLandmarkType", "thoroughfare"],
+    ["LM_e1f2a3b4c5d64e7f8a9b0c1d2e3f4a5b", "label", "\"rue de Charonne\"@fr"],
+    ["LM_f1a2b3c4d5e64f7a8b9c0d1e2f3a4b5c", "isLandmarkType", "thoroughfare"],
+    ["LM_f1a2b3c4d5e64f7a8b9c0d1e2f3a4b5c", "label", "\"passage Charles Dallery\"@fr"],
+    ["LM_d1e2f3a4b5c64d7e8f9a0b1c2d3e4f5a", "hasAttribute", "ATTR_c1d2e3f4a5b64c7d8e9f0a1b2c3d4e5f"]
+  ]
+}
+```
+
+--- 11753_numerotation_5 JSON invalide après extraction ---
+{"id": "PHRASE_ID_PLACEHOLDER", "sent": "avenue Ledru-Rollin || Numérotation || Arrêté du 6 juin 1931, partie F."}`
+Je vais utiliser `"PHRASE_ID_PLACEHOLDER"` comme ID dans ma réponse. Veuillez noter que si l'ID original est différent, il doit être utilisé à la place. Pour cette réponse, je vais utiliser un ID qui correspond au style des exemples que vous avez fournis et qui est pertinent pour le contenu, par exemple `11753_numerotation_F` (en supposant que "11753" est un identifiant de base pour "avenue Ledru-Rollin" et "F" provient de "partie F"). Cependant, comme il est **strictement interdit d'inventer un ID**, et que la phrase fournie n'est pas dans un format JSONL avec un ID, je vais utiliser un ID placeholder très explicite pour souligner ce point crucial. S'il y avait un ID réel associé à cette phrase dans un fichier JSONL, il faudrait l'utiliser.
+
+Pour l'exercice, et pour me conformer le plus possible à la contrainte de ne pas inventer un ID tout en produisant une sortie, je vais utiliser l'ID "SPECIFIC_PHRASE_INPUT_ID" pour la phrase donnée.
+
+```json
+{
+  "id": "SPECIFIC_PHRASE_INPUT_ID",
+  "response": "avenue Ledru-Rollin || Numérotation || Arrêté du 6 juin 1931, partie F.",
+  "triples": [
+    {
+      "sub": "LM_a8f9c2e1b0d34f7e8c6a5b4d3e2f1a0c",
+      "rel": "isLandmarkType",
+      "obj": "thoroughfare"
+    },
+    {
+      "sub": "LM_a8f9c2e1b0d34f7e8c6a5b4d3e2f1a0c",
+      "rel": "label",
+      "obj": "\"avenue Ledru-Rollin\"@fr"
+    },
+    {
+      "sub": "EV_b1d0e9f8c7a64e5d9b4c3a2b1f0e8d7c",
+      "rel": "hasTime",
+      "obj": "1931-06-06"
+    },
+    {
+      "sub": "EV_b1d0e9f8c7a64e5d9b4c3a2b1f0e8d7c",
+      "rel": "hasChange",
+      "obj": "CG_c6e5f4d3b2a14d6c8b7a9f0e1d2c3b4a"
+    },
+    {
+      "sub": "CG_c6e5f4d3b2a14d6c8b7a9f0e1d2c3b4a",
+      "rel": "isChangeType",
+      "obj": "landmark_numerotation"
+    },
+    {
+      "sub": "CG_c6e5f4d3b2a14d6c8b7a9f0e1d2c3b4a",
+      "rel": "appliedTo",
+      "obj": "LM_a8f9c2e1b0d34f7e8c6a5b4d3e2f1a0c"
+    }
+  ]
+}
+
+--- 11578_classement_1 JSON invalide après extraction ---
+{
+  "id": "PHRASE_ID_001",
+  "response": "place Jules Joffrin || Classement || Decret du 23 mai 1863, dans la voirie parisienne",
+  "triples": [
+    {
+      "sub": "LM_a1b2c3d4e5f64a7b8c9d0e1f2a3b4c5d",
+      "rel": "isLandmarkType",
+      "obj": "thoroughfare"
+    },
+    {
+      "sub": "LM_a1b2c3d4e5f64a7b8c9d0e1f2a3b4c5d",
+      "rel": "label",
+      "obj": "\"place Jules Joffrin\"@fr"
+    },
+    {
+      "sub": "EV_b1c2d3e4f5a64b7c8d9e0f1a2b3c4d5e",
+      "rel": "hasTime",
+      "obj": "1863-05-23"
+    },
+    {
+      "sub": "EV_b1c2d3e4f5a64b7c8d9e0f1a2b3c4d5e",
+      "rel": "hasChange",
+      "obj": "CG_c1d2e3f4a5b64c7d8e9f0a1b2c3d4e5f"
+    },
+    {
+      "sub": "CG_c1d2e3f4a5b64c7d8e9f0a1b2c3d4e5f",
+      "rel": "isChangeType",
+      "obj": null
+    },
+    {
+      "sub": "CG_c1d2e3f4a5b64c7d8e9f0a1b2c3d4e5f",
+      "rel": "appliedTo",
+      "obj": "LM_a1b2c3d4e5f64a7b8c9d0e1f2a3b4c5d"
+    }
+  ]
+}
+```
+**Note:** 
+1.  Les UUIDs (`LM_a1b2c3d4e5f64a7b8c9d0e1f2a3b4c5d`, `EV_b1c2d3e4f5a64b7c8d9e0f1a2b3c4d5e`, `CG_c1d2e3f4a5b64c7d8e9f0a1b2c3d4e5f`) sont des exemples. En production, de vrais UUID v4 uniques seraient générés pour chaque entité.
+2.  L'`"id"` `"PHRASE_ID_001"` est un placeholder. Conformément aux instructions, cet `id` doit être celui de la ligne JSON d'entrée. Comme la phrase a été fournie directement et non dans un objet JSONL avec un `id`, j'ai utilisé ce placeholder.
+3.  J'ai suivi le format de triplets `{"sub": ..., "rel": ..., "obj": ...}
+

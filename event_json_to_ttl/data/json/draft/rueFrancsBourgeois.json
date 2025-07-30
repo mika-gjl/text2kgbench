@@ -1,0 +1,135 @@
+{
+   "source":{
+
+   },
+   "events":[
+      {
+         "time":{
+            "stamp":"1868-04-02",
+            "calendar":"gregorian",
+            "precision":"day"
+         },
+         "label":"rue des Francs Bourgeois || Historique || L'arr. du 2 avril 1868, réunissait la rue Neuve Sainte-Catherine (comprise entre les rues de Turenne et Payenne) et la rue de Paradis au Marais (comprise entre les rues Vieille du Temple et des Archives) à la rue des Francs Bourgeois (comprise entre les rues Payenne et Vieille du Temple).",
+         "lang":"fr",
+         "provenance":{
+            "uri":"https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/10817"
+         },
+         "landmarks":[
+            {
+               "id":1,
+               "label":"rue des Francs Bourgeois",
+               "type":"thoroughfare",
+               "changes":[
+                  {
+                     "on":"attribute",
+                     "attribute":"geometry"
+                  }
+               ]
+            },
+            {
+               "id":2,
+               "label":"rue Neuve Sainte-Catherine",
+               "type":"thoroughfare",
+               "changes":[
+                  {
+                     "on":"landmark",
+                     "type":"disappearance"
+                  }
+               ]
+            },
+            {
+               "id":3,
+               "label":"rue de Paradis au Marais",
+               "type":"thoroughfare",
+               "changes":[
+                  {
+                     "on":"landmark",
+                     "type":"disappearance"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "time":{
+            "stamp":"1868-04-02",
+            "calendar":"gregorian",
+            "precision":"day"
+         },
+         "label":"rue des Francs Bourgeois || Dénomination || Arrêté du 2 avril 1868, parties comprises entre les rues de Turenne et Payenne et entre les rues Vieille du Temple et des Archives.",
+         "lang":"fr",
+         "provenance":{
+            "uri":"https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/10817"
+         },
+         "landmarks":[
+            {
+               "id":1,
+               "label":"rue des Francs Bourgeois",
+               "type":"thoroughfare",
+               "changes":[
+                  {
+                     "on":"attribute",
+                     "attribute":"name",
+                     "makes_effective":[
+                        {
+                           "value":"rue des Francs Bourgeois",
+                           "lang":"fr"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "time":{
+            "stamp":"1893-12-26",
+            "calendar":"gregorian",
+            "precision":"day"
+         },
+         "label":"rue des Francs Bourgeois || Dénomination || Arrêté du 26 décembre 1893, partie comprise entre la rue de Turenne et la place des Vosges.",
+         "lang":"fr",
+         "provenance":{
+            "uri":"https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/10817"
+         },
+         "landmarks":[
+            {
+               "id":1,
+               "label":"rue des Francs Bourgeois",
+               "type":"thoroughfare",
+               "changes":[
+                  {
+                     "on":"attribute",
+                     "attribute":"geometry"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "time":{
+            "stamp":"1900-05-29",
+            "calendar":"gregorian",
+            "precision":"day"
+         },
+         "label":"rue des Francs Bourgeois || Numérotation || Arrêté du 3 janvier 1894 : nos 2, 2 bis, 2 ter, 1 et 1 bis.",
+         "lang":"fr",
+         "provenance":{
+            "uri":"https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/10817"
+         },
+         "landmarks":[
+            {
+               "id":1,
+               "label":"rue des Francs Bourgeois",
+               "type":"thoroughfare",
+               "changes":[
+                  {
+                     "on":"landmark",
+                     "type":"numerotation"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

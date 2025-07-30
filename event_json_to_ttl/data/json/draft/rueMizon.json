@@ -1,0 +1,138 @@
+{
+   "source": {},
+   "events": [
+     {
+       "time": {
+         "stamp": "1899-08-12",
+         "calendar": "gregorian",
+         "precision": "day"
+       },
+       "label": "rue Mizon || Historique || Ouverte sur l'emplacement de l'abattoir des Fourneaux.",
+       "lang": "fr",
+       "provenance": {
+         "uri": "https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12269"
+       },
+       "landmarks": [
+         {
+           "id": "1",
+           "label": "rue Mizon",
+           "type": "road_segment",
+           "changes": [
+             {
+               "on": "landmark",
+               "type": "opening",
+               "description": "La rue Mizon a été ouverte sur l'emplacement de l'abattoir des Fourneaux, un site industriel qui a été réaménagé pour créer cette rue."
+             }
+           ]
+         }
+       ]
+     },
+     {
+       "time": {
+         "stamp": "1899-08-12",
+         "calendar": "gregorian",
+         "precision": "day"
+       },
+       "label": "rue Mizon || Dénomination || Arrêté du 12 août 1899.",
+       "lang": "fr",
+       "provenance": {
+         "uri": "https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12269"
+       },
+       "landmarks": [
+         {
+           "id": 1,
+           "label": "rue Mizon",
+           "type": "thoroughfare",
+           "changes": [
+             {
+               "on": "attribute",
+               "attribute": "name",
+               "makes_effective": [
+                 {
+                   "value": "rue Mizon",
+                   "lang": "fr"
+                 }
+               ]
+             }
+           ]
+         }
+       ]
+     },
+     {
+       "time": {
+         "stamp": "1903-03-10",
+         "calendar": "gregorian",
+         "precision": "day"
+       },
+       "label": "rue Mizon || Classement || Décret du 10 mars 1903.",
+       "lang": "fr",
+       "provenance": {
+         "uri": "https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12269"
+       },
+       "landmarks": [
+         {
+           "id": 1,
+           "label": "rue Mizon",
+           "type": "thoroughfare",
+           "changes": [
+             {
+               "on": "landmark",
+               "type": "classement"
+             }
+           ]
+         }
+       ]
+     },
+     {
+       "time": {
+         "stamp": "1901-01-14",
+         "calendar": "gregorian",
+         "precision": "day"
+       },
+       "label": "rue Mizon || Numérotation || Arrêté du 14 janvier 1901.",
+       "lang": "fr",
+       "provenance": {
+         "uri": "https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12269"
+       },
+       "landmarks": [
+         {
+           "id": 1,
+           "label": "rue Mizon",
+           "type": "thoroughfare",
+           "changes": [
+             {
+               "on": "landmark",
+               "type": "numerotation"
+             }
+           ]
+         }
+       ]
+     },
+     {
+       "time": {
+         "stamp": "1899-08-12",
+         "calendar": "gregorian",
+         "precision": "day"
+       },
+       "label": "rue Mizon || Ouverture || Ouverte en 1899.",
+       "lang": "fr",
+       "provenance": {
+         "uri": "https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12269"
+       },
+       "landmarks": [
+         {
+           "id": 1,
+           "label": "rue Mizon",
+           "type": "thoroughfare",
+           "changes": [
+             {
+               "on": "attribute",
+               "attribute": "geometry"
+             }
+           ]
+         }
+       ]
+     }
+   ]
+ }
+ 

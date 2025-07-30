@@ -1,0 +1,35 @@
+prop,label
+addr:Change,Change
+addr:Attribute,Attribute
+addr:Landmark,Landmark
+addr:LandmarkRelation,Landmark relation
+addr:Event,Event
+addr:CrispTimeInstant,Crisp time instant
+addr:Address,address
+addr:AddressSegment,address segment
+addr:AttributeVersion,Attribute version
+addr:TimeInterval,Time interval
+addr:TimeInstant,Time instant
+addr:FuzzyTimeInstant,Fuzzy time instant
+addr:TemporalEntity,Temporal entity
+addr:AttributeType,attribute type
+addr:ChangeType,Change Type
+addr:LandmarkRelationType,type of landmark relation
+addr:LandmarkType,Type of landmark
+addr:AttributeChange,Change on an attribute
+time:TRS,
+time:TemporalUnit,
+addr:LandmarkVersion,Landmark version
+prov:Entity,Entity
+skos:Concept,
+addr:CrispTemporalEntity,Crisp temporal entity
+addr:CrispTimeInterval,Crisp time interval
+addr:FinalAddressSegment,final address segment
+addr:FuzzyTemporalEntity,Fuzzy temporal entity
+addr:FuzzyTimeInterval,Fuzzy time interval
+addr:LandmarkChange,Change on a landmark
+addr:LandmarkRelationChange,Change on a landmark relation
+skos:ConceptScheme,
+_:node5817301,
+_:node5817305,
+_:node5817319,

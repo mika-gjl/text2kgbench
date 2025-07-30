@@ -1,0 +1,134 @@
+{
+   "source": {},
+   "events": [
+     {
+       "time": {
+         "stamp": "1730-01-01",
+         "calendar": "gregorian",
+         "precision": "year"
+       },
+       "label": "rue du Père Corentin || Historique || Précédemment rue de la Voie Verte. Elle est indiquée à l'état de sentier sur le plan de Roussel (1730).",
+       "lang": "fr",
+       "provenance": {
+         "uri": "https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12740"
+       },
+       "landmarks": [
+         {
+           "id": 1,
+           "label": "rue du Père Corentin",
+           "type": "thoroughfare",
+           "changes": [
+             {
+               "on": "landmark",
+               "type": "appearance"
+             }
+           ]
+         },
+         {
+           "id": 2,
+           "label": "rue de la Voie Verte",
+           "type": "thoroughfare",
+           "changes": [
+             {
+               "on": "landmark",
+               "type": "disappearance"
+             }
+           ]
+         }
+       ]
+     },
+     {
+       "time": {
+         "stamp": "1945-07-07",
+         "calendar": "gregorian",
+         "precision": "day"
+       },
+       "label": "rue du Père Corentin || Dénomination || Arrêté du 7 juillet 1945.",
+       "lang": "fr",
+       "provenance": {
+         "uri": "https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12740"
+       },
+       "landmarks": [
+         {
+           "id": 1,
+           "label": "rue du Père Corentin",
+           "type": "thoroughfare",
+           "changes": [
+             {
+               "on": "attribute",
+               "attribute": "name",
+               "makes_effective": [
+                 {
+                   "value": "rue du Père Corentin",
+                   "lang": "fr"
+                 }
+               ]
+             }
+           ]
+         }
+       ]
+     },
+     {
+       "time": {
+         "stamp": "1877-12-05",
+         "calendar": "gregorian",
+         "precision": "day"
+       },
+       "label": "rue du Père Corentin || Numérotation || Arrêté du 5 décembre 1877.",
+       "lang": "fr",
+       "provenance": {
+         "uri": "https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12740"
+       },
+       "landmarks": [
+         {
+           "id": 1,
+           "label": "rue du Père Corentin",
+           "type": "thoroughfare",
+           "changes": [
+             {
+               "on": "landmark",
+               "type": "numerotation"
+             }
+           ]
+         }
+       ]
+     },
+     {
+       "time": {
+         "stamp": "1863-05-23",
+         "calendar": "gregorian",
+         "precision": "day"
+       },
+       "label": "rue du Père Corentin || Classement || Décret du 23 mai 1863, dans la voirie parisienne. Précédemment chemin vicinal de la commune de Montrouge.",
+       "lang": "fr",
+       "provenance": {
+         "uri": "https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/12740"
+       },
+       "landmarks": [
+         {
+           "id": 1,
+           "label": "rue du Père Corentin",
+           "type": "thoroughfare",
+           "changes": [
+             {
+               "on": "landmark",
+               "attribute": "status",
+               "type": "classement",
+               "makes_effective": [
+                 {
+                   "value": "voirie parisienne",
+                   "lang": "fr"
+                 }
+               ],
+               "previous_value": {
+                 "value": "chemin vicinal de la commune de Montrouge",
+                 "lang": "fr"
+               }
+             }
+           ]
+         }
+       ]
+     }
+   ]
+ }
+ 

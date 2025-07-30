@@ -1,0 +1,64 @@
+{
+   "source":{
+      
+   },
+   "events":[
+      {
+         "label":"place du Bataillon du Pacifique || Historique || Elle avait été provisoirement dénommée AT/12.",
+         "lang":"fr",
+         "provenance":{
+            "uri":"https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9198_historique"
+         },
+         "landmarks":[
+            {
+               "id":1,
+               "label":"place du Bataillon du Pacifique",
+               "type":"thoroughfare",
+               "changes":[
+                  {
+                     "on":"attribute",
+                     "attribute":"name",
+                     "makes_effective": [
+                        { "value":"place du Bataillon du Pacifique", "lang":"fr" }
+                     ],
+                     "outdates": [
+                        { "value":"voie AT/12", "lang":"fr" }
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "time":{
+            "stamp":"1985-07-12",
+            "calendar":"gregorian",
+            "precision":"day"
+         },
+         "label":"place du Bataillon du Pacifique || Dénomination || Arrêté municipal du 12 juillet 1985.",
+         "lang":"fr",
+         "provenance":{
+            "uri":"https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/9198_denomination"
+         },
+         "landmarks":[
+            {
+               "id":1,
+               "label":"place du Bataillon du Pacifique",
+               "type":"thoroughfare",
+               "changes":[
+                  {
+                     "on":"attribute",
+                     "attribute":"name",
+                     "makes_effective":[
+                        {
+                           "value":"place du Bataillon du Pacifique",
+                           "lang":"fr"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

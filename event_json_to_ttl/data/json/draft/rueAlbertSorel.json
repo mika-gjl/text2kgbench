@@ -1,0 +1,103 @@
+{
+    "source": {},
+    "events": [
+      {
+        "time": {
+          "stamp": "1932-01-11",
+          "calendar": "gregorian",
+          "precision": "day"
+        },
+        "label": "rue Albert Sorel || Dénomination || Arrêté du 11 janvier 1932.",
+        "provenance":{
+            "uri":"https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/8849"
+         },
+        "landmarks": [
+          {
+            "id": 1,
+            "label": "rue Albert Sorel",
+            "type": "thoroughfare",
+            "changes": [
+              {
+                "on": "attribute",
+                "attribute": "name",
+                "makes_effective": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "time": {
+          "stamp": "1932-03-24",
+          "calendar": "gregorian",
+          "precision": "day"
+        },
+        "label": "rue Albert Sorel || Numérotation || Arrêté du 24 mars 1932.",
+        "provenance":{
+            "uri":"https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/8849"
+         },
+        "landmarks": [
+          {
+            "id": 1,
+            "label": "rue Albert Sorel",
+            "type": "thoroughfare",
+            "changes": [
+              {
+                "on": "landmark",
+                "type": "numerotation"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "time": {
+          "stamp": "1932-01-01",
+          "calendar": "gregorian",
+          "precision": "year"
+        },
+        "label": "rue Albert Sorel || Historique || Ouverte par l'Office public d'Habitations de la Ville de Paris sur l'emplacement du bastion 79.",
+        "provenance":{
+            "uri":"https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/8849"
+         },
+        "landmarks": [
+          {
+            "id": 1,
+            "label": "rue Albert Sorel",
+            "type": "thoroughfare",
+            "changes": [
+              {
+                "on": "landmark",
+                "type": "appearance"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "time": {
+          "stamp": "1962-01-03",
+          "calendar": "gregorian",
+          "precision": "day"
+        },
+        "label": "rue Albert Sorel || Classement || Arrêté du 3 janvier 1962.",
+        "provenance":{
+            "uri":"https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/8849"
+         },
+        "landmarks": [
+          {
+            "id": 1,
+            "label": "rue Albert Sorel",
+            "type": "thoroughfare",
+            "changes": [
+              {
+                "on": "attribute",
+                "attribute": "status"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

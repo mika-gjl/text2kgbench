@@ -1,0 +1,162 @@
+{
+  "source": {},
+  "events": [
+    {
+      "time": {
+        "stamp": "1858-06-08",
+        "calendar": "gregorian",
+        "precision": "day"
+      },
+      "label": "place Jules Joffrin || Ouverture || Decret du 8 juin 1858 (UP).",
+      "lang": "fr",
+      "provenance": {
+        "uri": "https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11578"
+      },
+      "landmarks": [
+        {
+          "id": 1,
+          "label": "place Jules Joffrin",
+          "type": "thoroughfare",
+          "changes": [
+            {
+              "on": "attribute",
+              "attribute": "geometry"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "time": {
+        "stamp": "1863-05-23",
+        "calendar": "gregorian",
+        "precision": "day"
+      },
+      "label": "place Jules Joffrin || Classement || Decret du 23 mai 1863, dans la voirie parisienne. Precedemment voie de l'ancienne commune de Montmartre.",
+      "lang": "fr",
+      "provenance": {
+        "uri": "https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11578"
+      },
+      "landmarks": [
+        {
+          "id": 1,
+          "label": "place Jules Joffrin",
+          "type": "thoroughfare",
+          "changes": [
+            {
+              "on": "attribute",
+              "attribute": "name",
+              "makes_effective": {
+                "value": "place Jules Joffrin",
+                "lang": "fr"
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Paris",
+          "type": "municipality"
+        },
+        {
+          "id": 3,
+          "label": "Montmartre",
+          "type": "municipality"
+        }
+      ],
+      "relations": [
+        {
+          "id":1,
+          "type":"within",
+          "locatum":1,
+          "relatum":[2],
+          "changes": [
+            {
+            "on":"relation",
+            "type":"appearance"
+          }
+        ]
+        },
+        {
+          "id":2,
+          "type":"within",
+          "locatum":1,
+          "relatum":[3],
+          "changes": [
+            {
+            "on":"relation",
+            "type":"disappearance"
+          }
+        ]
+        }
+      ]
+    },
+    {
+      "time": {
+        "stamp": "1895-07-29",
+        "calendar": "gregorian",
+        "precision": "day"
+      },
+      "label": "place Jules Joffrin || Historique || Precedemment place Sainte-Euphrasie.",
+      "lang": "fr",
+      "provenance": {
+        "uri": "https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11578"
+      },
+      "landmarks": [
+        {
+          "id": 1,
+          "label": "place Jules Joffrin",
+          "type": "thoroughfare",
+          "changes": [
+            {
+              "on": "landmark",
+              "type": "appearance"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "label": "place Sainte-Euphrasie",
+          "type": "thoroughfare",
+          "changes": [
+            {
+              "on": "landmark",
+              "type": "disappearance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "time": {
+        "stamp": "1895-07-29",
+        "calendar": "gregorian",
+        "precision": "day"
+      },
+      "label": "place Jules Joffrin || Denomination || Arrete du 29 juillet 1895.",
+      "lang": "fr",
+      "provenance": {
+        "uri": "https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/11578"
+      },
+      "landmarks": [
+        {
+          "id": 1,
+          "label": "place Jules Joffrin",
+          "type": "thoroughfare",
+          "changes": [
+            {
+              "on": "attribute",
+              "attribute": "name",
+              "makes_effective": [
+                {
+                  "value": "place Jules Joffrin",
+                  "lang": "fr"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

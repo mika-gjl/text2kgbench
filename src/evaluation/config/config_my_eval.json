@@ -1,0 +1,12 @@
+{
+  "onto_list": [
+  "1_rue_mizon", "2_rue_lyon", "3_rue_lesdiguieres", "4_rue_francs_bourgeois", "5_rue_albert_sorel", "6_rue_pere_corentin", "7_rue_armand_carrel", "8_avenue_ledru_rollin", "9_place_bataillon_pacifique", "10_place_jules_joffrin"
+  ],
+  "path_patterns": {
+    "sys"   : "/Users/jguo/Desktop/text2kgbench/text2kgbench/llm_responses/ont_$$onto$$_test_llm_responses.jsonl",
+    "gt"    : "/Users/jguo/Desktop/text2kgbench/text2kgbench/ground_truth/ont_$$onto$$_ground_truth.jsonl",
+    "onto"  : "/Users/jguo/Desktop/text2kgbench/text2kgbench/ontology_to_json/$$onto$$_ontology.json",
+    "output": "/Users/jguo/Desktop/text2kgbench/text2kgbench/eval_metrics/ont_$$onto$$_llm_stats.jsonl"
+  },
+  "avg_out_file": "/Users/jguo/Desktop/text2kgbench/text2kgbench/eval_metrics/ont_llm_avg_stats.jsonl"
+}

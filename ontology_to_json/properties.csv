@@ -1,0 +1,89 @@
+prop,label,domain,range
+addr:eventSameTime,is at the same time,addr:Event,addr:Event
+addr:instantSameTime,is at the same time,addr:CrispTimeInstant,addr:CrispTimeInstant
+addr:instantAsPreciseAs,is as precise as,addr:CrispTimeInstant,addr:CrispTimeInstant
+addr:sameVersionValueAs,has same version value as,addr:AttributeVersion,addr:AttributeVersion
+addr:differentVersionValueFrom,has different version value from,addr:AttributeVersion,addr:AttributeVersion
+addr:eventBefore,is before,addr:Event,addr:Event
+addr:eventAfter,is after,addr:Event,addr:Event
+addr:instantBefore,is before,addr:CrispTimeInstant,addr:CrispTimeInstant
+addr:instantAfter,is after,addr:CrispTimeInstant,addr:CrispTimeInstant
+addr:instantMorePreciseThan,is more precise than,addr:CrispTimeInstant,addr:CrispTimeInstant
+addr:instantLessPreciseThan,is less precise than,addr:CrispTimeInstant,addr:CrispTimeInstant
+time:before,before,time:TemporalEntity,time:TemporalEntity
+addr:hasStep,has step,addr:Address,addr:AddressSegment
+addr:hasNextVersion,has next version,,
+addr:hasPreviousVersion,has previous version,,
+addr:hasOverlappingVersion,overlaps version,,
+addr:isOverlappedByVersion,is overlapped by version,,
+addr:hasTrace,has trace,,
+addr:isTraceOf,is trace of,,
+addr:hasRoot,has root,,
+addr:isRootOf,is root of,,
+addr:hasRootLandmark,has root,,
+addr:isRootLandmarkOf,is root of,,
+addr:appliedTo,is applied to,addr:Change,_:node5817301
+addr:changedBy,is changed by,_:node5817305,addr:Change
+time:after,after,time:TemporalEntity,time:TemporalEntity
+time:intervalAfter,interval after,time:ProperInterval,time:ProperInterval
+time:intervalDisjoint,interval disjoint,time:ProperInterval,time:ProperInterval
+time:intervalBefore,interval before,time:ProperInterval,time:ProperInterval
+time:intervalContains,interval contains,time:ProperInterval,time:ProperInterval
+time:intervalDuring,interval during,time:ProperInterval,time:ProperInterval
+time:intervalIn,interval in,time:ProperInterval,time:ProperInterval
+time:intervalEquals,interval equals,time:ProperInterval,time:ProperInterval
+time:intervalFinishedBy,interval finished by,time:ProperInterval,time:ProperInterval
+time:intervalFinishes,interval finishes,time:ProperInterval,time:ProperInterval
+time:intervalMeets,interval meets,time:ProperInterval,time:ProperInterval
+time:intervalMetBy,interval met by,time:ProperInterval,time:ProperInterval
+time:intervalOverlappedBy,interval overlapped by,time:ProperInterval,time:ProperInterval
+time:intervalOverlaps,interval overlaps,time:ProperInterval,time:ProperInterval
+time:intervalStartedBy,interval started by,time:ProperInterval,time:ProperInterval
+time:intervalStarts,interval starts,time:ProperInterval,time:ProperInterval
+addr:dependsOn,depends on the event,addr:Change,addr:Event
+addr:hasChange,has change,addr:Event,addr:Change
+addr:firstStep,has first step,addr:Address,addr:AddressSegment
+addr:hasAttribute,has attribute,owl:Thing,addr:Attribute
+addr:isAttributeOf,is attribute of,,
+addr:hasAttributeVersion,has version,addr:Attribute,addr:AttributeVersion
+addr:isAttributeVersionOf,is attribute version of,addr:AttributeVersion,addr:Attribute
+addr:hasBeginning,has beginning,addr:TimeInterval,addr:TimeInstant
+addr:hasEnd,has end,addr:TimeInterval,addr:TimeInstant
+addr:hasFuzzyBeggining,has fuzzy beginning,addr:FuzzyTimeInstant,addr:CrispTimeInstant
+addr:hasFuzzyEnd,has fuzzy end,addr:FuzzyTimeInstant,addr:CrispTimeInstant
+addr:hasFuzzyPeak,has fuzzy peak,addr:FuzzyTimeInstant,addr:CrispTimeInstant
+addr:isStepOf,is a step of,addr:AddressSegment,addr:Address
+addr:nextStep,has next step,addr:AddressSegment,addr:AddressSegment
+addr:hasTime,has time,,addr:TemporalEntity
+addr:hasTimeAfter,occurs after,,addr:TemporalInstant
+addr:hasTimeBefore,occurs before,,addr:TemporalInstant
+addr:hasEarliestTimeInstant,has earliest time instant,,addr:TemporalInstant
+addr:hasLatestTimeInstant,has latest time instant,,addr:TemporalInstant
+addr:isAttributeType,is attribute type,addr:Attribute,addr:AttributeType
+addr:isChangeType,is change type,addr:Change,addr:ChangeType
+addr:isLandmarkRelationType,is landmark relation type,addr:LandmarkRelation,addr:LandmarkRelationType
+addr:isLandmarkType,is landmark type,addr:Landmark,addr:LandmarkType
+addr:locatum,has locatum,addr:LandmarkRelation,addr:Landmark
+addr:makesEffective,makes effective,addr:AttributeChange,addr:AttributeVersion
+addr:isMadeEffectiveBy,is made effective by,addr:AttributeVersion,addr:AttributeChange
+addr:isOutdatedBy,is outdated by,addr:AttributeVersion,addr:AttributeChange
+addr:outdates,outdates,addr:AttributeChange,addr:AttributeVersion
+addr:relatum,has relatum,addr:LandmarkRelation,addr:Landmark
+addr:targets,targets,addr:Address,addr:Landmark
+addr:timeCalendar,has calendar,addr:CrispTimeInstant,time:TRS
+addr:timePrecision,has time precision,addr:CrispTimeInstant,time:TemporalUnit
+addr:versionOf,is a version of,addr:LandmarkVersion,addr:Landmark
+prov:wasDerivedFrom,was derived from,prov:Entity,prov:Entity
+addr:timeStamp,,addr:CrispTimeInstant,xsd:dateTimeStamp
+addr:versionValue,has version value,addr:AttributeVersion,
+owl:maxQualifiedCardinality,,rdfs:Class,rdfs:Literal
+owl:maxQualifiedCardinality,,rdfs:Class,xsd:nonNegativeInteger
+owl:maxQualifiedCardinality,,owl:Class,rdfs:Literal
+owl:maxQualifiedCardinality,,owl:Class,xsd:nonNegativeInteger
+owl:maxQualifiedCardinality,,owl:Restriction,rdfs:Literal
+owl:maxQualifiedCardinality,,owl:Restriction,xsd:nonNegativeInteger
+skos:#altLabel,,,
+skos:#broader,,,
+skos:#definition,,,
+skos:#inScheme,,,
+skos:#prefLabel,,,
