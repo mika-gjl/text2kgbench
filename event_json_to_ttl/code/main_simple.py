@@ -8,8 +8,8 @@ if __name__ == '__main__':
 
     # Transformation du ground truth CSV en JSON puis en TTL
     csv_ground_truth = data_folder + "ground_truth.csv"
-    json_ground_truth = data_folder + "ground_truth_simple.json"
-    jsonl_ground_truth = data_folder + "ground_truth_simple.jsonl"
+    json_ground_truth = data_folder + "simplified_ground_truth.json"
+    jsonl_ground_truth = data_folder + "simplified_ground_truth.jsonl"
     
     jsonl_train_set = data_folder + "new_train.jsonl"
     jsonl_valid_set = data_folder + "new_valid.jsonl"
